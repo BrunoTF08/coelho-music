@@ -4,7 +4,9 @@ Reprodutor Android nativo de músicas locais. Kotlin, Compose Material 3, MVVM, 
 
 ## Download e instalação
 
-Baixe o APK na seção **Releases** deste repositório. No Android 8.0 ou superior, abra o arquivo e autorize a instalação pelo aplicativo utilizado para baixá-lo, caso o Android solicite. Ao iniciar o Coelho Music, permita acesso às músicas locais.
+[Baixar Coelho Music 1.0.0 — APK para Android](https://github.com/BrunoTF08/coelho-music/releases/download/v1.0.0/Coelho-Music-1.0.0-debug.apk)
+
+Veja os detalhes na [release v1.0.0](https://github.com/BrunoTF08/coelho-music/releases/tag/v1.0.0). No Android 8.0 ou superior, abra o arquivo e autorize a instalação pelo aplicativo utilizado para baixá-lo, caso o Android solicite. Ao iniciar o Coelho Music, permita acesso às músicas locais.
 
 Esta primeira distribuição é um APK de debug, assinado com chave de desenvolvimento. Reprodução em aparelhos físicos, Bluetooth e tela de bloqueio ainda precisam de validação. Uma versão futura assinada com outra chave poderá exigir a desinstalação desta versão, removendo os dados locais do aplicativo.
 
