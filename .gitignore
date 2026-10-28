@@ -4,3 +4,11 @@
 local.properties
 **/build/
 *.iml
+.kotlin/
+signing.properties
+signing/
+*.jks
+*.keystore
+*.p12
+*.pfx
+dist/

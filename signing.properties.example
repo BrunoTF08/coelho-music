@@ -1,0 +1,6 @@
+# Copy to signing.properties locally, or use scripts/New-ReleaseSigning.ps1.
+# Never commit the real file or the private keystore.
+STORE_FILE=C\:/path/outside/repository/coelho-music-release.p12
+STORE_PASSWORD=YOUR_PRIVATE_PASSWORD
+KEY_ALIAS=coelho-music
+KEY_PASSWORD=YOUR_PRIVATE_PASSWORD

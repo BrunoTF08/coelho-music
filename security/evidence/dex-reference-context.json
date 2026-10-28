@@ -1,0 +1,1190 @@
+[
+  {
+    "dex": "classes.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/base/Suppliers$ExpiringMemoizingSupplier;'",
+    "method": "name          : 'readObject'",
+    "instruction": "d1e5dc: 6e10 c4dc 0100                         |0000: invoke-virtual {v1}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@dcc4"
+  },
+  {
+    "dex": "classes.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/base/Suppliers$MemoizingSupplier;'",
+    "method": "name          : 'readObject'",
+    "instruction": "d1e718: 6e10 c4dc 0100                         |0000: invoke-virtual {v1}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@dcc4"
+  },
+  {
+    "dex": "classes.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/cache/LocalCache$ManualSerializationProxy;'",
+    "method": "name          : 'readObject'",
+    "instruction": "d248d0: 6e10 c4dc 0100                         |0000: invoke-virtual {v1}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@dcc4"
+  },
+  {
+    "dex": "classes.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;'",
+    "method": "name          : 'readObject'",
+    "instruction": "d23ff8: 6e10 c4dc 0200                         |0000: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@dcc4"
+  },
+  {
+    "dex": "classes.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/cache/LongAdder;'",
+    "method": "name          : 'readObject'",
+    "instruction": "d299dc: 6e10 c4dc 0300                         |0000: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@dcc4"
+  },
+  {
+    "dex": "classes.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/cache/LongAdder;'",
+    "method": "name          : 'readObject'",
+    "instruction": "d299ee: 6e10 c5dc 0300                         |0009: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.readLong:()J // method@dcc5"
+  },
+  {
+    "dex": "classes2.dex",
+    "owner": "Class descriptor  : 'Landroidx/core/content/ContextCompat$LegacyServiceMapHolder;'",
+    "method": "name          : '<clinit>'",
+    "instruction": "45aa2a: 1c01 1a00                              |00df: const-class v1, Landroid/app/DownloadManager; // type@001a"
+  },
+  {
+    "dex": "classes2.dex",
+    "owner": "Class descriptor  : 'Landroidx/core/net/DatagramSocketWrapper;'",
+    "method": "name          : '<init>'",
+    "instruction": "47553e: 7020 1cdb 0100                         |0005: invoke-direct {v1, v0}, Ljava/net/Socket;.<init>:(Ljava/net/SocketImpl;)V // method@db1c"
+  },
+  {
+    "dex": "classes2.dex",
+    "owner": "Class descriptor  : 'Landroidx/core/net/TrafficStatsCompat;'",
+    "method": "name          : 'tagSocket'",
+    "instruction": "475a00: 7110 c805 0000                         |0000: invoke-static {v0}, Landroid/net/TrafficStats;.tagSocket:(Ljava/net/Socket;)V // method@05c8"
+  },
+  {
+    "dex": "classes2.dex",
+    "owner": "Class descriptor  : 'Landroidx/core/net/TrafficStatsCompat;'",
+    "method": "name          : 'untagSocket'",
+    "instruction": "475a30: 7110 ca05 0000                         |0000: invoke-static {v0}, Landroid/net/TrafficStats;.untagSocket:(Ljava/net/Socket;)V // method@05ca"
+  },
+  {
+    "dex": "classes2.dex",
+    "owner": "Class descriptor  : 'Landroidx/core/text/util/LinkifyCompat;'",
+    "method": "name          : 'findAddress'",
+    "instruction": "47f60c: 7110 2a0d 0200                         |0006: invoke-static {v2}, Landroid/webkit/WebView;.findAddress:(Ljava/lang/String;)Ljava/lang/String; // method@0d2a"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'closeConnectionQuietly'",
+    "instruction": "25ca4c: 6e10 d2e0 0000                         |0004: invoke-virtual {v0}, Ljava/net/HttpURLConnection;.disconnect:()V // method@e0d2"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'isCompressed'",
+    "instruction": "25c088: 6e20 d5e0 0100                         |0002: invoke-virtual {v1, v0}, Ljava/net/HttpURLConnection;.getHeaderField:(Ljava/lang/String;)Ljava/lang/String; // method@e0d5"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c1f2: 760b c958 0000                         |002b: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6, v7, v8, v9, v10}, Landroidx/media3/datasource/DefaultHttpDataSource;.makeConnection:(Ljava/net/URL;I[BJJZZLjava/util/Map;)Ljava/net/HttpURLConnection; // method@58c9"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c214: 760b c958 0000                         |003c: invoke-direct/range {v0, v1, v2, v3, v4, v5, v6, v7, v8, v9, v10}, Landroidx/media3/datasource/DefaultHttpDataSource;.makeConnection:(Ljava/net/URL;I[BJJZZLjava/util/Map;)Ljava/net/HttpURLConnection; // method@58c9"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c21c: 6e10 d9e0 0900                         |0040: invoke-virtual {v9}, Ljava/net/HttpURLConnection;.getResponseCode:()I // method@e0d9"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c228: 6e20 d5e0 e900                         |0046: invoke-virtual {v9, v14}, Ljava/net/HttpURLConnection;.getHeaderField:(Ljava/lang/String;)Ljava/lang/String; // method@e0d5"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c28e: 6e10 d2e0 0900                         |0079: invoke-virtual {v9}, Ljava/net/HttpURLConnection;.disconnect:()V // method@e0d2"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c2b2: 6e10 d2e0 0900                         |008b: invoke-virtual {v9}, Ljava/net/HttpURLConnection;.disconnect:()V // method@e0d2"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c314: 6e20 cb58 3200                         |0000: invoke-virtual {v2, v3}, Landroidx/media3/datasource/DefaultHttpDataSource;.openConnection:(Ljava/net/URL;)Ljava/net/HttpURLConnection; // method@58cb"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c320: 6e20 dce0 0300                         |0006: invoke-virtual {v3, v0}, Ljava/net/HttpURLConnection;.setConnectTimeout:(I)V // method@e0dc"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c32a: 6e20 e0e0 0300                         |000b: invoke-virtual {v3, v0}, Ljava/net/HttpURLConnection;.setReadTimeout:(I)V // method@e0e0"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c3a8: 6e30 e2e0 1300                         |004a: invoke-virtual {v3, v1, v0}, Ljava/net/HttpURLConnection;.setRequestProperty:(Ljava/lang/String;Ljava/lang/String;)V // method@e0e2"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c3c0: 6e30 e2e0 7306                         |0056: invoke-virtual {v3, v7, v6}, Ljava/net/HttpURLConnection;.setRequestProperty:(Ljava/lang/String;Ljava/lang/String;)V // method@e0e2"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c3d2: 6e30 e2e0 7306                         |005f: invoke-virtual {v3, v7, v6}, Ljava/net/HttpURLConnection;.setRequestProperty:(Ljava/lang/String;Ljava/lang/String;)V // method@e0e2"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c3ea: 6e30 e2e0 7306                         |006b: invoke-virtual {v3, v7, v6}, Ljava/net/HttpURLConnection;.setRequestProperty:(Ljava/lang/String;Ljava/lang/String;)V // method@e0e2"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c3f0: 6e20 dfe0 b300                         |006e: invoke-virtual {v3, v11}, Ljava/net/HttpURLConnection;.setInstanceFollowRedirects:(Z)V // method@e0df"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c400: 6e20 dde0 6300                         |0076: invoke-virtual {v3, v6}, Ljava/net/HttpURLConnection;.setDoOutput:(Z)V // method@e0dd"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c40e: 6e20 e1e0 4300                         |007d: invoke-virtual {v3, v4}, Ljava/net/HttpURLConnection;.setRequestMethod:(Ljava/lang/String;)V // method@e0e1"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c41a: 6e20 dee0 4300                         |0083: invoke-virtual {v3, v4}, Ljava/net/HttpURLConnection;.setFixedLengthStreamingMode:(I)V // method@e0de"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c420: 6e10 d1e0 0300                         |0086: invoke-virtual {v3}, Ljava/net/HttpURLConnection;.connect:()V // method@e0d1"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c426: 6e10 d8e0 0300                         |0089: invoke-virtual {v3}, Ljava/net/HttpURLConnection;.getOutputStream:()Ljava/io/OutputStream; // method@e0d8"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'makeConnection'",
+    "instruction": "25c43c: 6e10 d1e0 0300                         |0094: invoke-virtual {v3}, Ljava/net/HttpURLConnection;.connect:()V // method@e0d1"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'getResponseHeaders'",
+    "instruction": "25c5ea: 6e10 d6e0 0100                         |000d: invoke-virtual {v1}, Ljava/net/HttpURLConnection;.getHeaderFields:()Ljava/util/Map; // method@e0d6"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'getUri'",
+    "instruction": "25c048: 6e10 dbe0 0000                         |0004: invoke-virtual {v0}, Ljava/net/HttpURLConnection;.getURL:()Ljava/net/URL; // method@e0db"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'open'",
+    "instruction": "25c66c: 7020 c858 fe00                         |0014: invoke-direct {v14, v15}, Landroidx/media3/datasource/DefaultHttpDataSource;.makeConnection:(Landroidx/media3/datasource/DataSpec;)Ljava/net/HttpURLConnection; // method@58c8"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'open'",
+    "instruction": "25c678: 6e10 d9e0 0300                         |001a: invoke-virtual {v3}, Ljava/net/HttpURLConnection;.getResponseCode:()I // method@e0d9"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'open'",
+    "instruction": "25c684: 6e10 dae0 0300                         |0020: invoke-virtual {v3}, Ljava/net/HttpURLConnection;.getResponseMessage:()Ljava/lang/String; // method@e0da"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'open'",
+    "instruction": "25c6ac: 6e10 d3e0 0300                         |0034: invoke-virtual {v3}, Ljava/net/HttpURLConnection;.getContentType:()Ljava/lang/String; // method@e0d3"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'open'",
+    "instruction": "25c6f4: 7110 c758 0300                         |0058: invoke-static {v3}, Landroidx/media3/datasource/DefaultHttpDataSource;.isCompressed:(Ljava/net/HttpURLConnection;)Z // method@58c7"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'open'",
+    "instruction": "25c71a: 6e20 d5e0 6300                         |006b: invoke-virtual {v3, v6}, Ljava/net/HttpURLConnection;.getHeaderField:(Ljava/lang/String;)Ljava/lang/String; // method@e0d5"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'open'",
+    "instruction": "25c722: 6e20 d5e0 5300                         |006f: invoke-virtual {v3, v5}, Ljava/net/HttpURLConnection;.getHeaderField:(Ljava/lang/String;)Ljava/lang/String; // method@e0d5"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'open'",
+    "instruction": "25c750: 6e10 d7e0 0300                         |0086: invoke-virtual {v3}, Ljava/net/HttpURLConnection;.getInputStream:()Ljava/io/InputStream; // method@e0d7"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'open'",
+    "instruction": "25c7c0: 6e10 d6e0 0300                         |00be: invoke-virtual {v3}, Ljava/net/HttpURLConnection;.getHeaderFields:()Ljava/util/Map; // method@e0d6"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'open'",
+    "instruction": "25c7d4: 6e20 d5e0 5300                         |00c8: invoke-virtual {v3, v5}, Ljava/net/HttpURLConnection;.getHeaderField:(Ljava/lang/String;)Ljava/lang/String; // method@e0d5"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'open'",
+    "instruction": "25c80c: 6e10 d4e0 0300                         |00e4: invoke-virtual {v3}, Ljava/net/HttpURLConnection;.getErrorStream:()Ljava/io/InputStream; // method@e0d4"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/datasource/DefaultHttpDataSource;'",
+    "method": "name          : 'openConnection'",
+    "instruction": "25c45c: 1f01 be21                              |0004: check-cast v1, Ljava/net/HttpURLConnection; // type@21be"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/session/SimpleBitmapLoader;'",
+    "method": "name          : 'load'",
+    "instruction": "388cb0: 1f00 be21                              |0038: check-cast v0, Ljava/net/HttpURLConnection; // type@21be"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/session/SimpleBitmapLoader;'",
+    "method": "name          : 'load'",
+    "instruction": "388cb4: 6e10 d1e0 0000                         |003a: invoke-virtual {v0}, Ljava/net/HttpURLConnection;.connect:()V // method@e0d1"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/session/SimpleBitmapLoader;'",
+    "method": "name          : 'load'",
+    "instruction": "388cba: 6e10 d9e0 0000                         |003d: invoke-virtual {v0}, Ljava/net/HttpURLConnection;.getResponseCode:()I // method@e0d9"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/media3/session/SimpleBitmapLoader;'",
+    "method": "name          : 'load'",
+    "instruction": "388cca: 6e10 d7e0 0000                         |0045: invoke-virtual {v0}, Ljava/net/HttpURLConnection;.getInputStream:()Ljava/io/InputStream; // method@e0d7"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/versionedparcelable/VersionedParcel$1;'",
+    "method": "name          : '<init>'",
+    "instruction": "4095e0: 7020 26df 2000                         |0002: invoke-direct {v0, v2}, Ljava/io/ObjectInputStream;.<init>:(Ljava/io/InputStream;)V // method@df26"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/versionedparcelable/VersionedParcel$1;'",
+    "method": "name          : 'resolveClass'",
+    "instruction": "4095c0: 6f20 28df 4300                         |0014: invoke-super {v3, v4}, Ljava/io/ObjectInputStream;.resolveClass:(Ljava/io/ObjectStreamClass;)Ljava/lang/Class; // method@df28"
+  },
+  {
+    "dex": "classes3.dex",
+    "owner": "Class descriptor  : 'Landroidx/versionedparcelable/VersionedParcel;'",
+    "method": "name          : 'readSerializable'",
+    "instruction": "40afc0: 6e10 27df 0200                         |0018: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@df27"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/AbstractBiMap$Inverse;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0c3214: 6e10 f33e 0100                         |0000: invoke-virtual {v1}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/AbstractBiMap$Inverse;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0c321a: 6e10 f73e 0100                         |0003: invoke-virtual {v1}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/AbstractMapBasedMultiset;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0c6bd4: 6e10 f33e 0300                         |0000: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/AbstractMapBasedMultiset;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0c6bda: 6e10 f53e 0300                         |0003: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/AbstractMapBasedMultiset;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0c6bf0: 7130 531c 3200                         |000e: invoke-static {v2, v3, v0}, Lcom/google/common/collect/Serialization;.populateMultiset:(Lcom/google/common/collect/Multiset;Ljava/io/ObjectInputStream;I)V // method@1c53"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/ArrayListMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0c8d34: 6e10 f33e 0300                         |0000: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/ArrayListMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0c8d40: 6e10 f53e 0300                         |0006: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/ArrayListMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0c8d56: 7130 511c 3200                         |0011: invoke-static {v2, v3, v0}, Lcom/google/common/collect/Serialization;.populateMultimap:(Lcom/google/common/collect/Multimap;Ljava/io/ObjectInputStream;I)V // method@1c51"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/CompactHashMap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0cf524: 6e10 f33e 0500                         |0000: invoke-virtual {v5}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/CompactHashMap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0cf52a: 6e10 f53e 0500                         |0003: invoke-virtual {v5}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/CompactHashMap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0cf54e: 6e10 f73e 0500                         |0015: invoke-virtual {v5}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/CompactHashMap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0cf556: 6e10 f73e 0500                         |0019: invoke-virtual {v5}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/CompactHashSet;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0d0284: 6e10 f33e 0400                         |0000: invoke-virtual {v4}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/CompactHashSet;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0d028a: 6e10 f53e 0400                         |0003: invoke-virtual {v4}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/CompactHashSet;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0d02ae: 6e10 f73e 0400                         |0015: invoke-virtual {v4}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/ConcurrentHashMultiset;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0d235c: 6e10 f33e 0200                         |0000: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/ConcurrentHashMultiset;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0d2362: 6e10 f73e 0200                         |0003: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/ImmutableListMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0e0cc0: 6e10 f33e 0b00                         |0000: invoke-virtual {v11}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/ImmutableListMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0e0cc6: 6e10 f53e 0b00                         |0003: invoke-virtual {v11}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/ImmutableListMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0e0ce4: 6e10 f73e 0b00                         |0012: invoke-virtual {v11}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/ImmutableListMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0e0cf4: 6e10 f53e 0b00                         |001a: invoke-virtual {v11}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/ImmutableListMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0e0d0e: 6e10 f73e 0b00                         |0027: invoke-virtual {v11}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/ImmutableSetMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0e7a58: 6e10 f33e 0c00                         |0000: invoke-virtual {v12}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/ImmutableSetMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0e7a5e: 6e10 f73e 0c00                         |0003: invoke-virtual {v12}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/ImmutableSetMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0e7a6a: 6e10 f53e 0c00                         |0009: invoke-virtual {v12}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/ImmutableSetMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0e7a88: 6e10 f73e 0c00                         |0018: invoke-virtual {v12}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/ImmutableSetMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0e7a98: 6e10 f53e 0c00                         |0020: invoke-virtual {v12}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/ImmutableSetMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0e7ab2: 6e10 f73e 0c00                         |002d: invoke-virtual {v12}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/EnumBiMap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0d56c4: 6e10 f33e 0400                         |0000: invoke-virtual {v4}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/EnumBiMap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0d56ca: 6e10 f73e 0400                         |0003: invoke-virtual {v4}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/EnumBiMap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0d56e2: 6e10 f73e 0400                         |000f: invoke-virtual {v4}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/EnumBiMap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0d571c: 7120 4e1c 4300                         |002c: invoke-static {v3, v4}, Lcom/google/common/collect/Serialization;.populateMap:(Ljava/util/Map;Ljava/io/ObjectInputStream;)V // method@1c4e"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/EnumHashBiMap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0d5984: 6e10 f33e 0300                         |0000: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/EnumHashBiMap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0d598a: 6e10 f73e 0300                         |0003: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/EnumHashBiMap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0d59c0: 7120 4e1c 3200                         |001e: invoke-static {v2, v3}, Lcom/google/common/collect/Serialization;.populateMap:(Ljava/util/Map;Ljava/io/ObjectInputStream;)V // method@1c4e"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/EnumMultiset;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0d61b4: 6e10 f33e 0200                         |0000: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/EnumMultiset;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0d61ba: 6e10 f73e 0200                         |0003: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/EnumMultiset;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0d61ec: 7120 521c 2100                         |001c: invoke-static {v1, v2}, Lcom/google/common/collect/Serialization;.populateMultiset:(Lcom/google/common/collect/Multiset;Ljava/io/ObjectInputStream;)V // method@1c52"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/HashBiMap$Inverse;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0dd024: 6e10 f33e 0100                         |0000: invoke-virtual {v1}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/HashBiMap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0de04c: 6e10 f33e 0300                         |0000: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/HashBiMap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0de052: 6e10 f53e 0300                         |0003: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/HashBiMap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0de064: 7130 4f1c 3200                         |000c: invoke-static {v2, v3, v0}, Lcom/google/common/collect/Serialization;.populateMap:(Ljava/util/Map;Ljava/io/ObjectInputStream;I)V // method@1c4f"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/HashMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0de648: 6e10 f33e 0300                         |0000: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/HashMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0de654: 6e10 f53e 0300                         |0006: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/HashMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0de66e: 7130 511c 3200                         |0013: invoke-static {v2, v3, v0}, Lcom/google/common/collect/Serialization;.populateMultimap:(Lcom/google/common/collect/Multimap;Ljava/io/ObjectInputStream;I)V // method@1c51"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/LinkedHashMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0ef684: 6e10 f33e 0700                         |0000: invoke-virtual {v7}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/LinkedHashMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0ef6a0: 6e10 f53e 0700                         |000e: invoke-virtual {v7}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/LinkedHashMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0ef6bc: 6e10 f73e 0700                         |001c: invoke-virtual {v7}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/LinkedHashMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0ef6d8: 6e10 f53e 0700                         |002a: invoke-virtual {v7}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/LinkedHashMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0ef6e4: 6e10 f73e 0700                         |0030: invoke-virtual {v7}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/LinkedHashMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0ef6ec: 6e10 f73e 0700                         |0034: invoke-virtual {v7}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/LinkedListMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0f0a6c: 6e10 f33e 0500                         |0000: invoke-virtual {v5}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/LinkedListMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0f0a7e: 6e10 f53e 0500                         |0009: invoke-virtual {v5}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/LinkedListMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0f0a8c: 6e10 f73e 0500                         |0010: invoke-virtual {v5}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/LinkedListMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0f0a94: 6e10 f73e 0500                         |0014: invoke-virtual {v5}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/MapMakerInternalMap$AbstractSerializationProxy;'",
+    "method": "name          : 'readEntries'",
+    "instruction": "0f218c: 6e10 f73e 0400                         |0000: invoke-virtual {v4}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/MapMakerInternalMap$AbstractSerializationProxy;'",
+    "method": "name          : 'readEntries'",
+    "instruction": "0f219a: 6e10 f73e 0400                         |0007: invoke-virtual {v4}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/MapMakerInternalMap$AbstractSerializationProxy;'",
+    "method": "name          : 'readMapMaker'",
+    "instruction": "0f20a4: 6e10 f53e 0300                         |0000: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/MapMakerInternalMap$SerializationProxy;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0f3a18: 6e10 f33e 0200                         |0000: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/MapMakerInternalMap$SerializationProxy;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0f3a1e: 6e20 2514 2100                         |0003: invoke-virtual {v1, v2}, Lcom/google/common/collect/MapMakerInternalMap$SerializationProxy;.readMapMaker:(Ljava/io/ObjectInputStream;)Lcom/google/common/collect/MapMaker; // method@1425"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/MapMakerInternalMap$SerializationProxy;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0f3a32: 6e20 2414 2100                         |000d: invoke-virtual {v1, v2}, Lcom/google/common/collect/MapMakerInternalMap$SerializationProxy;.readEntries:(Ljava/io/ObjectInputStream;)V // method@1424"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Multimaps$CustomListMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0fd97c: 6e10 f33e 0200                         |0000: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Multimaps$CustomListMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0fd982: 6e10 f73e 0200                         |0003: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Multimaps$CustomListMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0fd99a: 6e10 f73e 0200                         |000f: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Multimaps$CustomMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0fdb6c: 6e10 f33e 0200                         |0000: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Multimaps$CustomMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0fdb72: 6e10 f73e 0200                         |0003: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Multimaps$CustomMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0fdb8a: 6e10 f73e 0200                         |000f: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Multimaps$CustomSetMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0fdd28: 6e10 f33e 0200                         |0000: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Multimaps$CustomSetMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0fdd2e: 6e10 f73e 0200                         |0003: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Multimaps$CustomSetMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0fdd46: 6e10 f73e 0200                         |000f: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Multimaps$CustomSortedSetMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0fde90: 6e10 f33e 0200                         |0000: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Multimaps$CustomSortedSetMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0fde96: 6e10 f73e 0200                         |0003: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Multimaps$CustomSortedSetMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "0fdec6: 6e10 f73e 0200                         |001b: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Serialization;'",
+    "method": "name          : 'populateMap'",
+    "instruction": "10791c: 6e10 f53e 0200                         |0000: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Serialization;'",
+    "method": "name          : 'populateMap'",
+    "instruction": "107924: 7130 4f1c 2100                         |0004: invoke-static {v1, v2, v0}, Lcom/google/common/collect/Serialization;.populateMap:(Ljava/util/Map;Ljava/io/ObjectInputStream;I)V // method@1c4f"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Serialization;'",
+    "method": "name          : 'populateMap'",
+    "instruction": "107942: 6e10 f73e 0400                         |0003: invoke-virtual {v4}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Serialization;'",
+    "method": "name          : 'populateMap'",
+    "instruction": "10794a: 6e10 f73e 0400                         |0007: invoke-virtual {v4}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Serialization;'",
+    "method": "name          : 'populateMultimap'",
+    "instruction": "107970: 6e10 f53e 0200                         |0000: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Serialization;'",
+    "method": "name          : 'populateMultimap'",
+    "instruction": "107978: 7130 511c 2100                         |0004: invoke-static {v1, v2, v0}, Lcom/google/common/collect/Serialization;.populateMultimap:(Lcom/google/common/collect/Multimap;Ljava/io/ObjectInputStream;I)V // method@1c51"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Serialization;'",
+    "method": "name          : 'populateMultimap'",
+    "instruction": "107998: 6e10 f73e 0700                         |0004: invoke-virtual {v7}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Serialization;'",
+    "method": "name          : 'populateMultimap'",
+    "instruction": "1079a8: 6e10 f53e 0700                         |000c: invoke-virtual {v7}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Serialization;'",
+    "method": "name          : 'populateMultimap'",
+    "instruction": "1079b6: 6e10 f73e 0700                         |0013: invoke-virtual {v7}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Serialization;'",
+    "method": "name          : 'populateMultiset'",
+    "instruction": "1079e4: 6e10 f53e 0200                         |0000: invoke-virtual {v2}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Serialization;'",
+    "method": "name          : 'populateMultiset'",
+    "instruction": "1079ec: 7130 531c 2100                         |0004: invoke-static {v1, v2, v0}, Lcom/google/common/collect/Serialization;.populateMultiset:(Lcom/google/common/collect/Multiset;Ljava/io/ObjectInputStream;I)V // method@1c53"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Serialization;'",
+    "method": "name          : 'populateMultiset'",
+    "instruction": "107a0a: 6e10 f73e 0400                         |0003: invoke-virtual {v4}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/Serialization;'",
+    "method": "name          : 'populateMultiset'",
+    "instruction": "107a12: 6e10 f53e 0400                         |0007: invoke-virtual {v4}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/TreeMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "115894: 6e10 f33e 0300                         |0000: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/TreeMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "11589a: 6e10 f73e 0300                         |0003: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/TreeMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "1158b6: 6e10 f73e 0300                         |0011: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/TreeMultimap;'",
+    "method": "name          : 'readObject'",
+    "instruction": "1158e6: 7120 501c 3200                         |0029: invoke-static {v2, v3}, Lcom/google/common/collect/Serialization;.populateMultimap:(Lcom/google/common/collect/Multimap;Ljava/io/ObjectInputStream;)V // method@1c50"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/TreeMultiset;'",
+    "method": "name          : 'readObject'",
+    "instruction": "1176ac: 6e10 f33e 0300                         |0000: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/TreeMultiset;'",
+    "method": "name          : 'readObject'",
+    "instruction": "1176b2: 6e10 f73e 0300                         |0003: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.readObject:()Ljava/lang/Object; // method@3ef7"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/collect/TreeMultiset;'",
+    "method": "name          : 'readObject'",
+    "instruction": "1176d4: 7120 521c 3100                         |0014: invoke-static {v1, v3}, Lcom/google/common/collect/Serialization;.populateMultiset:(Lcom/google/common/collect/Multiset;Ljava/io/ObjectInputStream;)V // method@1c52"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/hash/LongAdder;'",
+    "method": "name          : 'readObject'",
+    "instruction": "12eef4: 6e10 f33e 0300                         |0000: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/hash/LongAdder;'",
+    "method": "name          : 'readObject'",
+    "instruction": "12ef06: 6e10 f63e 0300                         |0009: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.readLong:()J // method@3ef6"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/util/concurrent/AtomicDouble;'",
+    "method": "name          : 'readObject'",
+    "instruction": "15d4ac: 6e10 f33e 0300                         |0000: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/util/concurrent/AtomicDouble;'",
+    "method": "name          : 'readObject'",
+    "instruction": "15d4c0: 6e10 f43e 0300                         |000a: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.readDouble:()D // method@3ef4"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/util/concurrent/AtomicDoubleArray;'",
+    "method": "name          : 'readObject'",
+    "instruction": "15d1a0: 6e10 f33e 0600                         |0000: invoke-virtual {v6}, Ljava/io/ObjectInputStream;.defaultReadObject:()V // method@3ef3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/util/concurrent/AtomicDoubleArray;'",
+    "method": "name          : 'readObject'",
+    "instruction": "15d1a6: 6e10 f53e 0600                         |0003: invoke-virtual {v6}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lcom/google/common/util/concurrent/AtomicDoubleArray;'",
+    "method": "name          : 'readObject'",
+    "instruction": "15d1bc: 6e10 f43e 0600                         |000e: invoke-virtual {v6}, Ljava/io/ObjectInputStream;.readDouble:()D // method@3ef4"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/-DeprecatedOkio;'",
+    "method": "name          : 'sink'",
+    "instruction": "28b3ba: 7110 8895 0200                         |0005: invoke-static {v2}, Lokio/Okio;.sink:(Ljava/net/Socket;)Lokio/Sink; // method@9588"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/-DeprecatedOkio;'",
+    "method": "name          : 'source'",
+    "instruction": "28b462: 7110 8e95 0200                         |0005: invoke-static {v2}, Lokio/Okio;.source:(Ljava/net/Socket;)Lokio/Source; // method@958e"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/ByteString;'",
+    "method": "name          : 'readObject'",
+    "instruction": "29207c: 6e10 f53e 0300                         |0000: invoke-virtual {v3}, Ljava/io/ObjectInputStream;.readInt:()I // method@3ef5"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/Okio;'",
+    "method": "name          : 'sink'",
+    "instruction": "298428: 7110 9d95 0000                         |0000: invoke-static {v0}, Lokio/Okio__JvmOkioKt;.sink:(Ljava/net/Socket;)Lokio/Sink; // method@959d"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/Okio;'",
+    "method": "name          : 'socket'",
+    "instruction": "298460: 7110 a095 0000                         |0000: invoke-static {v0}, Lokio/Okio__JvmOkioKt;.socket:(Ljava/net/Socket;)Lokio/Socket; // method@95a0"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/Okio;'",
+    "method": "name          : 'source'",
+    "instruction": "2984d0: 7110 a395 0000                         |0000: invoke-static {v0}, Lokio/Okio__JvmOkioKt;.source:(Ljava/net/Socket;)Lokio/Source; // method@95a3"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/Okio__JvmOkioKt;'",
+    "method": "name          : 'sink'",
+    "instruction": "297f02: 7020 4c98 3000                         |0007: invoke-direct {v0, v3}, Lokio/internal/SocketAsyncTimeout;.<init>:(Ljava/net/Socket;)V // method@984c"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/Okio__JvmOkioKt;'",
+    "method": "name          : 'sink'",
+    "instruction": "297f0c: 6e10 aa41 0300                         |000c: invoke-virtual {v3}, Ljava/net/Socket;.getOutputStream:()Ljava/io/OutputStream; // method@41aa"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/Okio__JvmOkioKt;'",
+    "method": "name          : 'socket'",
+    "instruction": "297fa6: 7020 1398 1000                         |0007: invoke-direct {v0, v1}, Lokio/internal/DefaultSocket;.<init>:(Ljava/net/Socket;)V // method@9813"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/Okio__JvmOkioKt;'",
+    "method": "name          : 'source'",
+    "instruction": "29808e: 7020 4c98 3000                         |0007: invoke-direct {v0, v3}, Lokio/internal/SocketAsyncTimeout;.<init>:(Ljava/net/Socket;)V // method@984c"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/Okio__JvmOkioKt;'",
+    "method": "name          : 'source'",
+    "instruction": "298098: 6e10 a941 0300                         |000c: invoke-virtual {v3}, Ljava/net/Socket;.getInputStream:()Ljava/io/InputStream; // method@41a9"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : '<init>'",
+    "instruction": "2a8896: 6e10 1798 0200                         |0007: invoke-virtual {v2}, Lokio/internal/DefaultSocket;.getSocket:()Ljava/net/Socket; // method@9817"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : '<init>'",
+    "instruction": "2a889e: 7020 4c98 2000                         |000b: invoke-direct {v0, v2}, Lokio/internal/SocketAsyncTimeout;.<init>:(Ljava/net/Socket;)V // method@984c"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : 'close'",
+    "instruction": "2a88ea: 6e10 1798 0100                         |0017: invoke-virtual {v1}, Lokio/internal/DefaultSocket;.getSocket:()Ljava/net/Socket; // method@9817"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : 'close'",
+    "instruction": "2a88f2: 6e10 ab41 0200                         |001b: invoke-virtual {v2}, Ljava/net/Socket;.isClosed:()Z // method@41ab"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : 'close'",
+    "instruction": "2a88fe: 6e10 1798 0100                         |0021: invoke-virtual {v1}, Lokio/internal/DefaultSocket;.getSocket:()Ljava/net/Socket; // method@9817"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : 'close'",
+    "instruction": "2a8906: 6e10 ad41 0200                         |0025: invoke-virtual {v2}, Ljava/net/Socket;.isOutputShutdown:()Z // method@41ad"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : 'close'",
+    "instruction": "2a8914: 6e10 1798 0100                         |002c: invoke-virtual {v1}, Lokio/internal/DefaultSocket;.getSocket:()Ljava/net/Socket; // method@9817"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : 'close'",
+    "instruction": "2a891c: 6e10 aa41 0200                         |0030: invoke-virtual {v2}, Ljava/net/Socket;.getOutputStream:()Ljava/io/OutputStream; // method@41aa"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : 'close'",
+    "instruction": "2a892a: 6e10 1798 0100                         |0037: invoke-virtual {v1}, Lokio/internal/DefaultSocket;.getSocket:()Ljava/net/Socket; // method@9817"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : 'close'",
+    "instruction": "2a8932: 6e10 af41 0100                         |003b: invoke-virtual {v1}, Ljava/net/Socket;.shutdownOutput:()V // method@41af"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : 'close'",
+    "instruction": "2a8942: 6e10 1798 0100                         |0043: invoke-virtual {v1}, Lokio/internal/DefaultSocket;.getSocket:()Ljava/net/Socket; // method@9817"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : 'close'",
+    "instruction": "2a894a: 6e10 a841 0100                         |0047: invoke-virtual {v1}, Ljava/net/Socket;.close:()V // method@41a8"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : 'flush'",
+    "instruction": "2a89e6: 6e10 1798 0100                         |0009: invoke-virtual {v1}, Lokio/internal/DefaultSocket;.getSocket:()Ljava/net/Socket; // method@9817"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : 'flush'",
+    "instruction": "2a89ee: 6e10 aa41 0100                         |000d: invoke-virtual {v1}, Ljava/net/Socket;.getOutputStream:()Ljava/io/OutputStream; // method@41aa"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : 'toString'",
+    "instruction": "2a881a: 6e10 1798 0100                         |0009: invoke-virtual {v1}, Lokio/internal/DefaultSocket;.getSocket:()Ljava/net/Socket; // method@9817"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : 'write'",
+    "instruction": "2a8ad6: 6e10 1798 0300                         |0033: invoke-virtual {v3}, Lokio/internal/DefaultSocket;.getSocket:()Ljava/net/Socket; // method@9817"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSink;'",
+    "method": "name          : 'write'",
+    "instruction": "2a8ade: 6e10 aa41 0300                         |0037: invoke-virtual {v3}, Ljava/net/Socket;.getOutputStream:()Ljava/io/OutputStream; // method@41aa"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSource;'",
+    "method": "name          : '<init>'",
+    "instruction": "2a8dda: 6e10 1798 0200                         |0007: invoke-virtual {v2}, Lokio/internal/DefaultSocket;.getSocket:()Ljava/net/Socket; // method@9817"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSource;'",
+    "method": "name          : '<init>'",
+    "instruction": "2a8de2: 7020 4c98 2000                         |000b: invoke-direct {v0, v2}, Lokio/internal/SocketAsyncTimeout;.<init>:(Ljava/net/Socket;)V // method@984c"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSource;'",
+    "method": "name          : 'close'",
+    "instruction": "2a8e2e: 6e10 1798 0100                         |0017: invoke-virtual {v1}, Lokio/internal/DefaultSocket;.getSocket:()Ljava/net/Socket; // method@9817"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSource;'",
+    "method": "name          : 'close'",
+    "instruction": "2a8e36: 6e10 ab41 0200                         |001b: invoke-virtual {v2}, Ljava/net/Socket;.isClosed:()Z // method@41ab"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSource;'",
+    "method": "name          : 'close'",
+    "instruction": "2a8e42: 6e10 1798 0100                         |0021: invoke-virtual {v1}, Lokio/internal/DefaultSocket;.getSocket:()Ljava/net/Socket; // method@9817"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSource;'",
+    "method": "name          : 'close'",
+    "instruction": "2a8e4a: 6e10 ac41 0200                         |0025: invoke-virtual {v2}, Ljava/net/Socket;.isInputShutdown:()Z // method@41ac"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSource;'",
+    "method": "name          : 'close'",
+    "instruction": "2a8e58: 6e10 1798 0100                         |002c: invoke-virtual {v1}, Lokio/internal/DefaultSocket;.getSocket:()Ljava/net/Socket; // method@9817"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSource;'",
+    "method": "name          : 'close'",
+    "instruction": "2a8e60: 6e10 ae41 0100                         |0030: invoke-virtual {v1}, Ljava/net/Socket;.shutdownInput:()V // method@41ae"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSource;'",
+    "method": "name          : 'close'",
+    "instruction": "2a8e70: 6e10 1798 0100                         |0038: invoke-virtual {v1}, Lokio/internal/DefaultSocket;.getSocket:()Ljava/net/Socket; // method@9817"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSource;'",
+    "method": "name          : 'close'",
+    "instruction": "2a8e78: 6e10 a841 0100                         |003c: invoke-virtual {v1}, Ljava/net/Socket;.close:()V // method@41a8"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSource;'",
+    "method": "name          : 'read'",
+    "instruction": "2a8c46: 6e10 1798 0100                         |002b: invoke-virtual {v1}, Lokio/internal/DefaultSocket;.getSocket:()Ljava/net/Socket; // method@9817"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSource;'",
+    "method": "name          : 'read'",
+    "instruction": "2a8c4e: 6e10 a941 0100                         |002f: invoke-virtual {v1}, Ljava/net/Socket;.getInputStream:()Ljava/io/InputStream; // method@41a9"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket$SocketSource;'",
+    "method": "name          : 'toString'",
+    "instruction": "2a8bba: 6e10 1798 0100                         |0009: invoke-virtual {v1}, Lokio/internal/DefaultSocket;.getSocket:()Ljava/net/Socket; // method@9817"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket;'",
+    "method": "name          : 'cancel'",
+    "instruction": "2a8fe4: 6e10 a841 0000                         |0002: invoke-virtual {v0}, Ljava/net/Socket;.close:()V // method@41a8"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/DefaultSocket;'",
+    "method": "name          : 'toString'",
+    "instruction": "2a8f04: 6e10 b041 0000                         |0002: invoke-virtual {v0}, Ljava/net/Socket;.toString:()Ljava/lang/String; // method@41b0"
+  },
+  {
+    "dex": "classes4.dex",
+    "owner": "Class descriptor  : 'Lokio/internal/SocketAsyncTimeout;'",
+    "method": "name          : 'timedOut'",
+    "instruction": "2a9fd0: 6e10 a841 0100                         |0004: invoke-virtual {v1}, Ljava/net/Socket;.close:()V // method@41a8"
+  }
+]

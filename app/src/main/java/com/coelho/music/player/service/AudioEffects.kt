@@ -1,7 +1,6 @@
 package com.coelho.music.player.service
 
 import android.media.audiofx.Equalizer
-import android.media.audiofx.Visualizer
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import javax.inject.Inject
@@ -14,14 +13,11 @@ data class EqualizerState(val available: Boolean = false, val frequencies: List<
 @Singleton
 class AudioEffects @Inject constructor() {
     private var equalizer: Equalizer? = null
-    private var visualizer: Visualizer? = null
     private var session = 0
     private var desiredEnabled = false
     private var desiredLevels = emptyList<Int>()
     private val _equalizer = MutableStateFlow(EqualizerState())
     val state = _equalizer.asStateFlow()
-    val waveform = MutableStateFlow<List<Float>>(emptyList())
-    val visualizerError = MutableStateFlow<String?>(null)
     fun attach(id: Int) {
         if (id == session && equalizer != null) return
         release()
@@ -49,23 +45,5 @@ class AudioEffects @Inject constructor() {
             }
         } catch (_: RuntimeException) { _equalizer.value = _equalizer.value.copy(message = "Não foi possível aplicar o efeito.") }
     }
-    fun startVisualizer() {
-        stopVisualizer()
-        if (session == 0) { visualizerError.value = "Inicie a reprodução primeiro."; return }
-        try {
-            visualizer = Visualizer(session).apply {
-                captureSize = Visualizer.getCaptureSizeRange()[0]
-                setDataCaptureListener(object : Visualizer.OnDataCaptureListener {
-                    override fun onWaveFormDataCapture(v: Visualizer?, data: ByteArray?, rate: Int) {
-                        waveform.value = data?.map { ((it.toInt() and 255) - 128) / 128f } ?: emptyList()
-                    }
-                    override fun onFftDataCapture(v: Visualizer?, data: ByteArray?, rate: Int) = Unit
-                }, Visualizer.getMaxCaptureRate() / 2, true, false)
-                enabled = true
-            }
-            visualizerError.value = null
-        } catch (_: RuntimeException) { visualizerError.value = "Captura de áudio indisponível para esta sessão." }
-    }
-    fun stopVisualizer() { visualizer?.release(); visualizer = null; waveform.value = emptyList() }
-    fun release() { stopVisualizer(); equalizer?.release(); equalizer = null; session = 0; _equalizer.value = EqualizerState() }
+    fun release() { equalizer?.release(); equalizer = null; session = 0; _equalizer.value = EqualizerState() }
 }

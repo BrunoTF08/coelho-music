@@ -1,0 +1,4 @@
+Scan starting...
+Scan finished.
+Scanning C:\Users\BRUNO\Documents\Coelho Music\app\build\outputs\apk\debug\app-debug.apk found no threats.
+ExitCode=0

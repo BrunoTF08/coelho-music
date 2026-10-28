@@ -1,0 +1,4918 @@
+{
+  "queried_at": "2026-10-28T00:07:45.291275+00:00",
+  "endpoint": "https://api.osv.dev/v1/querybatch",
+  "query_count": 377,
+  "results": [
+    {
+      "dependency": {
+        "group": "androidx.activity",
+        "name": "activity",
+        "version": "1.11.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.activity",
+        "name": "activity-compose",
+        "version": "1.11.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.activity",
+        "name": "activity-ktx",
+        "version": "1.11.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.annotation",
+        "name": "annotation",
+        "version": "1.9.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath",
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.annotation",
+        "name": "annotation-experimental",
+        "version": "1.5.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.annotation",
+        "name": "annotation-jvm",
+        "version": "1.9.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath",
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.appcompat",
+        "name": "appcompat-resources",
+        "version": "1.7.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.arch.core",
+        "name": "core-common",
+        "version": "2.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.arch.core",
+        "name": "core-runtime",
+        "version": "2.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.autofill",
+        "name": "autofill",
+        "version": "1.0.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.collection",
+        "name": "collection",
+        "version": "1.5.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.collection",
+        "name": "collection-jvm",
+        "version": "1.5.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.collection",
+        "name": "collection-ktx",
+        "version": "1.5.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.animation",
+        "name": "animation",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.animation",
+        "name": "animation-android",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.animation",
+        "name": "animation-core",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.animation",
+        "name": "animation-core-android",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.foundation",
+        "name": "foundation",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.foundation",
+        "name": "foundation-android",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.foundation",
+        "name": "foundation-layout",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.foundation",
+        "name": "foundation-layout-android",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.material3",
+        "name": "material3",
+        "version": "1.4.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.material3",
+        "name": "material3-android",
+        "version": "1.4.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.material",
+        "name": "material-icons-core",
+        "version": "1.7.8",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.material",
+        "name": "material-icons-core-android",
+        "version": "1.7.8",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.material",
+        "name": "material-icons-extended",
+        "version": "1.7.8",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.material",
+        "name": "material-icons-extended-android",
+        "version": "1.7.8",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.material",
+        "name": "material-ripple",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.material",
+        "name": "material-ripple-android",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.runtime",
+        "name": "runtime",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.runtime",
+        "name": "runtime-android",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.runtime",
+        "name": "runtime-annotation",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.runtime",
+        "name": "runtime-annotation-android",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.runtime",
+        "name": "runtime-retain",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.runtime",
+        "name": "runtime-retain-android",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.runtime",
+        "name": "runtime-saveable",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.runtime",
+        "name": "runtime-saveable-android",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.ui",
+        "name": "ui",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.ui",
+        "name": "ui-android",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.ui",
+        "name": "ui-geometry",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.ui",
+        "name": "ui-geometry-android",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.ui",
+        "name": "ui-graphics",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.ui",
+        "name": "ui-graphics-android",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.ui",
+        "name": "ui-text",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.ui",
+        "name": "ui-text-android",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.ui",
+        "name": "ui-unit",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.ui",
+        "name": "ui-unit-android",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.ui",
+        "name": "ui-util",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose.ui",
+        "name": "ui-util-android",
+        "version": "1.10.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.compose",
+        "name": "compose-bom",
+        "version": "2025.12.00",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.concurrent",
+        "name": "concurrent-futures",
+        "version": "1.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.core",
+        "name": "core",
+        "version": "1.16.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.core",
+        "name": "core-ktx",
+        "version": "1.16.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.core",
+        "name": "core-viewtree",
+        "version": "1.0.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.customview",
+        "name": "customview",
+        "version": "1.0.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.customview",
+        "name": "customview-poolingcontainer",
+        "version": "1.0.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.databinding",
+        "name": "databinding-common",
+        "version": "8.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.databinding",
+        "name": "databinding-compiler-common",
+        "version": "8.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.datastore",
+        "name": "datastore",
+        "version": "1.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.datastore",
+        "name": "datastore-android",
+        "version": "1.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.datastore",
+        "name": "datastore-core",
+        "version": "1.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.datastore",
+        "name": "datastore-core-android",
+        "version": "1.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.datastore",
+        "name": "datastore-core-okio",
+        "version": "1.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.datastore",
+        "name": "datastore-core-okio-jvm",
+        "version": "1.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.datastore",
+        "name": "datastore-preferences",
+        "version": "1.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.datastore",
+        "name": "datastore-preferences-android",
+        "version": "1.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.datastore",
+        "name": "datastore-preferences-core",
+        "version": "1.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.datastore",
+        "name": "datastore-preferences-core-android",
+        "version": "1.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.datastore",
+        "name": "datastore-preferences-external-protobuf",
+        "version": "1.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.datastore",
+        "name": "datastore-preferences-proto",
+        "version": "1.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.documentfile",
+        "name": "documentfile",
+        "version": "1.0.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.dynamicanimation",
+        "name": "dynamicanimation",
+        "version": "1.0.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.emoji2",
+        "name": "emoji2",
+        "version": "1.4.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.exifinterface",
+        "name": "exifinterface",
+        "version": "1.4.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.fragment",
+        "name": "fragment",
+        "version": "1.5.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.graphics",
+        "name": "graphics-path",
+        "version": "1.0.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.hilt",
+        "name": "hilt-navigation",
+        "version": "1.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.hilt",
+        "name": "hilt-navigation-compose",
+        "version": "1.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.interpolator",
+        "name": "interpolator",
+        "version": "1.0.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.legacy",
+        "name": "legacy-support-core-utils",
+        "version": "1.0.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-common",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-common-java8",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-common-jvm",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-livedata",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-livedata-core",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-livedata-core-ktx",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-process",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-runtime",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-runtime-android",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-runtime-compose",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-runtime-compose-android",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-runtime-ktx",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-runtime-ktx-android",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-service",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-viewmodel",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-viewmodel-android",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-viewmodel-compose",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-viewmodel-compose-android",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-viewmodel-ktx",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-viewmodel-savedstate",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.lifecycle",
+        "name": "lifecycle-viewmodel-savedstate-android",
+        "version": "2.9.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.loader",
+        "name": "loader",
+        "version": "1.0.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.localbroadcastmanager",
+        "name": "localbroadcastmanager",
+        "version": "1.0.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.media3",
+        "name": "media3-common",
+        "version": "1.11.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.media3",
+        "name": "media3-container",
+        "version": "1.11.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.media3",
+        "name": "media3-database",
+        "version": "1.11.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.media3",
+        "name": "media3-datasource",
+        "version": "1.11.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.media3",
+        "name": "media3-decoder",
+        "version": "1.11.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.media3",
+        "name": "media3-exoplayer",
+        "version": "1.11.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.media3",
+        "name": "media3-extractor",
+        "version": "1.11.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.media3",
+        "name": "media3-session",
+        "version": "1.11.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.media",
+        "name": "media",
+        "version": "1.7.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.navigation",
+        "name": "navigation-common",
+        "version": "2.9.5",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.navigation",
+        "name": "navigation-common-android",
+        "version": "2.9.5",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.navigation",
+        "name": "navigation-compose",
+        "version": "2.9.5",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.navigation",
+        "name": "navigation-compose-android",
+        "version": "2.9.5",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.navigation",
+        "name": "navigation-runtime",
+        "version": "2.9.5",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.navigation",
+        "name": "navigation-runtime-android",
+        "version": "2.9.5",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.palette",
+        "name": "palette",
+        "version": "1.0.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.palette",
+        "name": "palette-ktx",
+        "version": "1.0.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.print",
+        "name": "print",
+        "version": "1.0.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.profileinstaller",
+        "name": "profileinstaller",
+        "version": "1.4.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.room",
+        "name": "room-common",
+        "version": "2.8.5",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath",
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.room",
+        "name": "room-common-jvm",
+        "version": "2.8.5",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath",
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.room",
+        "name": "room-compiler",
+        "version": "2.8.5",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.room",
+        "name": "room-compiler-processing",
+        "version": "2.8.5",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.room",
+        "name": "room-external-antlr",
+        "version": "2.8.5",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.room",
+        "name": "room-ktx",
+        "version": "2.8.5",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.room",
+        "name": "room-migration",
+        "version": "2.8.5",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.room",
+        "name": "room-migration-jvm",
+        "version": "2.8.5",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.room",
+        "name": "room-runtime",
+        "version": "2.8.5",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.room",
+        "name": "room-runtime-android",
+        "version": "2.8.5",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.savedstate",
+        "name": "savedstate",
+        "version": "1.3.3",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.savedstate",
+        "name": "savedstate-android",
+        "version": "1.3.3",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.savedstate",
+        "name": "savedstate-compose",
+        "version": "1.3.3",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.savedstate",
+        "name": "savedstate-compose-android",
+        "version": "1.3.3",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.savedstate",
+        "name": "savedstate-ktx",
+        "version": "1.3.3",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.sqlite",
+        "name": "sqlite",
+        "version": "2.6.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.sqlite",
+        "name": "sqlite-android",
+        "version": "2.6.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.sqlite",
+        "name": "sqlite-framework",
+        "version": "2.6.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.sqlite",
+        "name": "sqlite-framework-android",
+        "version": "2.6.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.startup",
+        "name": "startup-runtime",
+        "version": "1.1.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.tracing",
+        "name": "tracing",
+        "version": "1.2.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.transition",
+        "name": "transition",
+        "version": "1.6.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.vectordrawable",
+        "name": "vectordrawable",
+        "version": "1.1.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.vectordrawable",
+        "name": "vectordrawable-animated",
+        "version": "1.1.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.versionedparcelable",
+        "name": "versionedparcelable",
+        "version": "1.1.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.viewpager",
+        "name": "viewpager",
+        "version": "1.0.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.window",
+        "name": "window",
+        "version": "1.5.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.window",
+        "name": "window-core",
+        "version": "1.5.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "androidx.window",
+        "name": "window-core-android",
+        "version": "1.5.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.application",
+        "name": "com.android.application.gradle.plugin",
+        "version": "8.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.databinding",
+        "name": "baseLibrary",
+        "version": "8.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.analytics-library",
+        "name": "crash",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.analytics-library",
+        "name": "protos",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.analytics-library",
+        "name": "shared",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.analytics-library",
+        "name": "tracker",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.build.jetifier",
+        "name": "jetifier-core",
+        "version": "1.0.0-beta10",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.build.jetifier",
+        "name": "jetifier-processor",
+        "version": "1.0.0-beta10",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.build",
+        "name": "aapt2-proto",
+        "version": "8.11.1-12782657",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.build",
+        "name": "aaptcompiler",
+        "version": "8.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.build",
+        "name": "apksig",
+        "version": "8.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.build",
+        "name": "apkzlib",
+        "version": "8.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.build",
+        "name": "builder",
+        "version": "8.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.build",
+        "name": "builder-model",
+        "version": "8.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.build",
+        "name": "builder-test-api",
+        "version": "8.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.build",
+        "name": "bundletool",
+        "version": "1.18.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.build",
+        "name": "gradle",
+        "version": "8.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.build",
+        "name": "gradle-api",
+        "version": "8.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.build",
+        "name": "gradle-settings-api",
+        "version": "8.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.build",
+        "name": "manifest-merger",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.build",
+        "name": "transform-api",
+        "version": "2.0.0-deprecated-use-gradle-api",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.ddms",
+        "name": "ddmlib",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.layoutlib",
+        "name": "layoutlib-api",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.lint",
+        "name": "lint-model",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.lint",
+        "name": "lint-typedef-remover",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.utp",
+        "name": "android-device-provider-ddmlib-proto",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.utp",
+        "name": "android-device-provider-gradle-proto",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.utp",
+        "name": "android-device-provider-profile-proto",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.utp",
+        "name": "android-test-plugin-host-additional-test-output-proto",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.utp",
+        "name": "android-test-plugin-host-apk-installer-proto",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.utp",
+        "name": "android-test-plugin-host-coverage-proto",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.utp",
+        "name": "android-test-plugin-host-emulator-control-proto",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.utp",
+        "name": "android-test-plugin-host-logcat-proto",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools.utp",
+        "name": "android-test-plugin-result-listener-gradle-proto",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools",
+        "name": "annotations",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools",
+        "name": "common",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools",
+        "name": "dvlib",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools",
+        "name": "repository",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools",
+        "name": "sdk-common",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android.tools",
+        "name": "sdklib",
+        "version": "31.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android",
+        "name": "signflinger",
+        "version": "8.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.android",
+        "name": "zipflinger",
+        "version": "8.11.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.accompanist",
+        "name": "accompanist-drawablepainter",
+        "version": "0.37.3",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.android",
+        "name": "annotations",
+        "version": "4.1.1.4",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.api.grpc",
+        "name": "proto-google-common-protos",
+        "version": "2.48.0",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.auto.value",
+        "name": "auto-value-annotations",
+        "version": "1.6.3",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.auto.value",
+        "name": "auto-value-annotations",
+        "version": "1.6.2",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.auto",
+        "name": "auto-common",
+        "version": "1.2.1",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.code.findbugs",
+        "name": "jsr305",
+        "version": "3.0.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath",
+          "kaptRelease",
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.code.gson",
+        "name": "gson",
+        "version": "2.11.0",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.crypto.tink",
+        "name": "tink",
+        "version": "1.7.0",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.dagger.hilt.android",
+        "name": "com.google.dagger.hilt.android.gradle.plugin",
+        "version": "2.57.2",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.dagger",
+        "name": "dagger",
+        "version": "2.57.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath",
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.dagger",
+        "name": "dagger",
+        "version": "2.28.3",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.dagger",
+        "name": "dagger-compiler",
+        "version": "2.57.2",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.dagger",
+        "name": "dagger-lint-aar",
+        "version": "2.57.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.dagger",
+        "name": "dagger-spi",
+        "version": "2.57.2",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.dagger",
+        "name": "hilt-android",
+        "version": "2.57.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.dagger",
+        "name": "hilt-android-gradle-plugin",
+        "version": "2.57.2",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.dagger",
+        "name": "hilt-compiler",
+        "version": "2.57.2",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.dagger",
+        "name": "hilt-core",
+        "version": "2.57.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.devtools.ksp",
+        "name": "symbol-processing-api",
+        "version": "2.1.21-2.0.2",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.errorprone",
+        "name": "error_prone_annotations",
+        "version": "2.50.0",
+        "scopes": [
+          "kaptRelease",
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.errorprone",
+        "name": "javac-shaded",
+        "version": "9-dev-r4023-3",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.flatbuffers",
+        "name": "flatbuffers-java",
+        "version": "1.12.0",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.googlejavaformat",
+        "name": "google-java-format",
+        "version": "1.5",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.guava",
+        "name": "failureaccess",
+        "version": "1.0.3",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath",
+          "kaptRelease",
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.guava",
+        "name": "guava",
+        "version": "33.7.2-android",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.guava",
+        "name": "guava",
+        "version": "33.7.2-jre",
+        "scopes": [
+          "kaptRelease",
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.guava",
+        "name": "listenablefuture",
+        "version": "9999.0-empty-to-avoid-conflict-with-guava",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath",
+          "kaptRelease",
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.j2objc",
+        "name": "j2objc-annotations",
+        "version": "3.1",
+        "scopes": [
+          "kaptRelease",
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.jimfs",
+        "name": "jimfs",
+        "version": "1.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.protobuf",
+        "name": "protobuf-java",
+        "version": "3.25.5",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.protobuf",
+        "name": "protobuf-java-util",
+        "version": "3.25.5",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.google.testing.platform",
+        "name": "core-proto",
+        "version": "0.0.9-alpha03",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.googlecode.juniversalchardet",
+        "name": "juniversalchardet",
+        "version": "1.0.3",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.intellij",
+        "name": "annotations",
+        "version": "12.0",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.squareup.okio",
+        "name": "okio",
+        "version": "3.15.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.squareup.okio",
+        "name": "okio-jvm",
+        "version": "3.15.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.squareup",
+        "name": "javapoet",
+        "version": "1.13.0",
+        "scopes": [
+          "kaptRelease",
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.squareup",
+        "name": "javawriter",
+        "version": "2.5.0",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.squareup",
+        "name": "kotlinpoet",
+        "version": "2.0.0",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.squareup",
+        "name": "kotlinpoet-javapoet",
+        "version": "2.0.0",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.squareup",
+        "name": "kotlinpoet-jvm",
+        "version": "2.0.0",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.sun.activation",
+        "name": "javax.activation",
+        "version": "1.2.0",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.sun.istack",
+        "name": "istack-commons-runtime",
+        "version": "3.0.8",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "com.sun.xml.fastinfoset",
+        "name": "FastInfoset",
+        "version": "1.2.16",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "commons-codec",
+        "name": "commons-codec",
+        "version": "1.15",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "commons-codec",
+        "name": "commons-codec",
+        "version": "1.19.0",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "commons-io",
+        "name": "commons-io",
+        "version": "2.20.0",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "commons-logging",
+        "name": "commons-logging",
+        "version": "1.2",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.coil-kt.coil3",
+        "name": "coil",
+        "version": "3.3.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.coil-kt.coil3",
+        "name": "coil-android",
+        "version": "3.3.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.coil-kt.coil3",
+        "name": "coil-compose",
+        "version": "3.3.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.coil-kt.coil3",
+        "name": "coil-compose-android",
+        "version": "3.3.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.coil-kt.coil3",
+        "name": "coil-compose-core",
+        "version": "3.3.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.coil-kt.coil3",
+        "name": "coil-compose-core-android",
+        "version": "3.3.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.coil-kt.coil3",
+        "name": "coil-core",
+        "version": "3.3.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.coil-kt.coil3",
+        "name": "coil-core-android",
+        "version": "3.3.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.grpc",
+        "name": "grpc-api",
+        "version": "1.69.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.grpc",
+        "name": "grpc-context",
+        "version": "1.69.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.grpc",
+        "name": "grpc-core",
+        "version": "1.69.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.grpc",
+        "name": "grpc-inprocess",
+        "version": "1.69.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.grpc",
+        "name": "grpc-netty",
+        "version": "1.69.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.grpc",
+        "name": "grpc-protobuf",
+        "version": "1.69.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.grpc",
+        "name": "grpc-protobuf-lite",
+        "version": "1.69.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.grpc",
+        "name": "grpc-stub",
+        "version": "1.69.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.grpc",
+        "name": "grpc-util",
+        "version": "1.69.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.netty",
+        "name": "netty-buffer",
+        "version": "4.1.137.Final",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.netty",
+        "name": "netty-codec",
+        "version": "4.1.137.Final",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.netty",
+        "name": "netty-codec-http",
+        "version": "4.1.137.Final",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.netty",
+        "name": "netty-codec-http2",
+        "version": "4.1.137.Final",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.netty",
+        "name": "netty-codec-socks",
+        "version": "4.1.137.Final",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.netty",
+        "name": "netty-common",
+        "version": "4.1.137.Final",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.netty",
+        "name": "netty-handler",
+        "version": "4.1.137.Final",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.netty",
+        "name": "netty-handler-proxy",
+        "version": "4.1.137.Final",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.netty",
+        "name": "netty-resolver",
+        "version": "4.1.137.Final",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.netty",
+        "name": "netty-transport",
+        "version": "4.1.137.Final",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.netty",
+        "name": "netty-transport-native-unix-common",
+        "version": "4.1.137.Final",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "io.perfmark",
+        "name": "perfmark-api",
+        "version": "0.27.0",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "jakarta.activation",
+        "name": "jakarta.activation-api",
+        "version": "1.2.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "jakarta.inject",
+        "name": "jakarta.inject-api",
+        "version": "2.0.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath",
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "jakarta.xml.bind",
+        "name": "jakarta.xml.bind-api",
+        "version": "2.3.2",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "javax.annotation",
+        "name": "javax.annotation-api",
+        "version": "1.3.2",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "javax.inject",
+        "name": "javax.inject",
+        "version": "1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath",
+          "kaptRelease",
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "junit",
+        "name": "junit",
+        "version": "4.13.2",
+        "scopes": [
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "net.java.dev.jna",
+        "name": "jna",
+        "version": "5.6.0",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "net.java.dev.jna",
+        "name": "jna-platform",
+        "version": "5.6.0",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "net.ltgt.gradle.incap",
+        "name": "incap",
+        "version": "0.2",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "net.sf.jopt-simple",
+        "name": "jopt-simple",
+        "version": "4.9",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "net.sf.kxml",
+        "name": "kxml2",
+        "version": "2.3.0",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.apache.commons",
+        "name": "commons-compress",
+        "version": "1.28.0",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.apache.commons",
+        "name": "commons-lang3",
+        "version": "3.18.0",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.apache.httpcomponents",
+        "name": "httpclient",
+        "version": "4.5.14",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.apache.httpcomponents",
+        "name": "httpcore",
+        "version": "4.4.16",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.apache.httpcomponents",
+        "name": "httpmime",
+        "version": "4.5.6",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.bitbucket.b_c",
+        "name": "jose4j",
+        "version": "0.9.6",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.bouncycastle",
+        "name": "bcpkix-jdk18on",
+        "version": "1.85",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.bouncycastle",
+        "name": "bcprov-jdk18on",
+        "version": "1.85",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.bouncycastle",
+        "name": "bcutil-jdk18on",
+        "version": "1.85",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.checkerframework",
+        "name": "checker-compat-qual",
+        "version": "2.5.3",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.checkerframework",
+        "name": "checker-qual",
+        "version": "2.5.8",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.codehaus.mojo",
+        "name": "animal-sniffer-annotations",
+        "version": "1.24",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.glassfish.jaxb",
+        "name": "jaxb-runtime",
+        "version": "2.3.2",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.glassfish.jaxb",
+        "name": "txw2",
+        "version": "2.3.2",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.hamcrest",
+        "name": "hamcrest-core",
+        "version": "1.3",
+        "scopes": [
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jdom",
+        "name": "jdom2",
+        "version": "2.0.6.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.androidx.lifecycle",
+        "name": "lifecycle-common",
+        "version": "2.9.5",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.androidx.lifecycle",
+        "name": "lifecycle-runtime",
+        "version": "2.9.5",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.androidx.lifecycle",
+        "name": "lifecycle-runtime-compose",
+        "version": "2.9.5",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.androidx.lifecycle",
+        "name": "lifecycle-viewmodel",
+        "version": "2.8.4",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.androidx.savedstate",
+        "name": "savedstate",
+        "version": "1.3.5",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.androidx.savedstate",
+        "name": "savedstate-compose",
+        "version": "1.3.5",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.compose.animation",
+        "name": "animation",
+        "version": "1.8.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.compose.animation",
+        "name": "animation-core",
+        "version": "1.8.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.compose.annotation-internal",
+        "name": "annotation",
+        "version": "1.8.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.compose.collection-internal",
+        "name": "collection",
+        "version": "1.8.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.compose.foundation",
+        "name": "foundation",
+        "version": "1.8.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.compose.foundation",
+        "name": "foundation-layout",
+        "version": "1.8.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.compose.runtime",
+        "name": "runtime",
+        "version": "1.9.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.compose.runtime",
+        "name": "runtime-saveable",
+        "version": "1.9.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.compose.ui",
+        "name": "ui",
+        "version": "1.8.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.compose.ui",
+        "name": "ui-geometry",
+        "version": "1.8.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.compose.ui",
+        "name": "ui-graphics",
+        "version": "1.8.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.compose.ui",
+        "name": "ui-text",
+        "version": "1.8.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.compose.ui",
+        "name": "ui-unit",
+        "version": "1.8.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.compose.ui",
+        "name": "ui-util",
+        "version": "1.8.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin.android",
+        "name": "org.jetbrains.kotlin.android.gradle.plugin",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin.kapt",
+        "name": "org.jetbrains.kotlin.kapt.gradle.plugin",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin.plugin.compose",
+        "name": "org.jetbrains.kotlin.plugin.compose.gradle.plugin",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "abi-tools-api",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "compose-compiler-gradle-plugin",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "fus-statistics-gradle-plugin",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-build-statistics",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-build-tools-api",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-compiler-runner",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-daemon-client",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-gradle-plugin",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {
+        "vulns": [
+          {
+            "id": "GHSA-r937-wjx7-w2jp",
+            "modified": "2026-08-12T19:40:59.256901Z"
+          }
+        ]
+      }
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-gradle-plugin-annotations",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-gradle-plugin-api",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-gradle-plugin-idea",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-gradle-plugin-idea-proto",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-gradle-plugin-model",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-gradle-plugins-bom",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-klib-commonizer-api",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-metadata-jvm",
+        "version": "2.2.0",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-native-utils",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-reflect",
+        "version": "2.0.10",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-reflect",
+        "version": "2.0.21",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-stdlib",
+        "version": "2.2.20",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-stdlib",
+        "version": "2.2.0",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-stdlib",
+        "version": "2.0.21",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-stdlib-common",
+        "version": "2.2.20",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-stdlib-jdk7",
+        "version": "2.1.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-stdlib-jdk8",
+        "version": "2.1.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-tooling-core",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-util-io",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-util-klib",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlin",
+        "name": "kotlin-util-klib-metadata",
+        "version": "2.2.20",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlinx",
+        "name": "kotlinx-coroutines-android",
+        "version": "1.10.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlinx",
+        "name": "kotlinx-coroutines-bom",
+        "version": "1.10.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlinx",
+        "name": "kotlinx-coroutines-core",
+        "version": "1.10.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlinx",
+        "name": "kotlinx-coroutines-core-jvm",
+        "version": "1.10.2",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlinx",
+        "name": "kotlinx-coroutines-core-jvm",
+        "version": "1.8.0",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlinx",
+        "name": "kotlinx-serialization-bom",
+        "version": "1.7.3",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlinx",
+        "name": "kotlinx-serialization-bom",
+        "version": "1.8.1",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlinx",
+        "name": "kotlinx-serialization-core",
+        "version": "1.7.3",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlinx",
+        "name": "kotlinx-serialization-core",
+        "version": "1.8.1",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlinx",
+        "name": "kotlinx-serialization-core-jvm",
+        "version": "1.7.3",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlinx",
+        "name": "kotlinx-serialization-core-jvm",
+        "version": "1.8.1",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlinx",
+        "name": "kotlinx-serialization-json",
+        "version": "1.7.3",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlinx",
+        "name": "kotlinx-serialization-json",
+        "version": "1.8.1",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlinx",
+        "name": "kotlinx-serialization-json-jvm",
+        "version": "1.7.3",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains.kotlinx",
+        "name": "kotlinx-serialization-json-jvm",
+        "version": "1.8.1",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains",
+        "name": "annotations",
+        "version": "23.0.0",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jetbrains",
+        "name": "annotations",
+        "version": "13.0",
+        "scopes": [
+          "kaptRelease",
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jspecify",
+        "name": "jspecify",
+        "version": "1.0.1",
+        "scopes": [
+          "releaseRuntimeClasspath",
+          "releaseCompileClasspath",
+          "releaseUnitTestRuntimeClasspath",
+          "kaptRelease",
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.jvnet.staxex",
+        "name": "stax-ex",
+        "version": "1.8.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.ow2.asm",
+        "name": "asm",
+        "version": "9.8",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.ow2.asm",
+        "name": "asm-analysis",
+        "version": "9.7.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.ow2.asm",
+        "name": "asm-commons",
+        "version": "9.7.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.ow2.asm",
+        "name": "asm-tree",
+        "version": "9.7.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.ow2.asm",
+        "name": "asm-util",
+        "version": "9.7.1",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.slf4j",
+        "name": "slf4j-api",
+        "version": "1.7.30",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.tensorflow",
+        "name": "tensorflow-lite-metadata",
+        "version": "0.2.0",
+        "scopes": [
+          "build-plugin::"
+        ]
+      },
+      "response": {}
+    },
+    {
+      "dependency": {
+        "group": "org.xerial",
+        "name": "sqlite-jdbc",
+        "version": "3.41.2.2",
+        "scopes": [
+          "kaptRelease"
+        ]
+      },
+      "response": {}
+    }
+  ],
+  "vulnerability_details": [
+    {
+      "id": "GHSA-r937-wjx7-w2jp",
+      "summary": "JetBrains Kotlin: Unsafe Deserialization in Kotlin Build Cache Enables Code Execution",
+      "details": "In JetBrains Kotlin before 2.4.20 code execution was possible via unsafe deserialization in the build cache metadata",
+      "aliases": [
+        "CVE-2026-53914"
+      ],
+      "modified": "2026-08-12T19:40:59.256901Z",
+      "published": "2026-06-26T15:32:13Z",
+      "database_specific": {
+        "nvd_published_at": "2026-06-26T14:17:05Z",
+        "cwe_ids": [
+          "CWE-502"
+        ],
+        "severity": "MODERATE",
+        "github_reviewed": true,
+        "github_reviewed_at": "2026-08-12T19:25:23Z"
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53914"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/JetBrains/kotlin/commit/bf51df665b458fda7c3eaf436c4d88dc119d7ec6"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/JetBrains/kotlin"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/JetBrains/kotlin/releases/tag/v2.4.20-Beta1"
+        },
+        {
+          "type": "WEB",
+          "url": "https://www.jetbrains.com/privacy-security/issues-fixed"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "org.jetbrains.kotlin:kotlin-gradle-plugin",
+            "ecosystem": "Maven",
+            "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-gradle-plugin"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "2.4.20-Beta1"
+                }
+              ]
+            }
+          ],
+          "versions": [
+            "0.0.1-test-deploy",
+            "0.0.2-test-deploy",
+            "0.1.1.2-5-test-2",
+            "0.1.1.2-5-test-4",
+            "0.1.1.2-5-test-5",
+            "0.10.1316",
+            "0.10.195",
+            "0.10.4",
+            "0.10.709",
+            "0.10.770",
+            "0.11.91",
+            "0.11.91.1",
+            "0.11.91.2",
+            "0.11.91.4",
+            "0.12.1218",
+            "0.12.1230",
+            "0.12.200",
+            "0.12.213",
+            "0.12.412",
+            "0.12.613",
+            "0.13.1513",
+            "0.13.1514",
+            "0.13.1516",
+            "0.14.449",
+            "0.14.451",
+            "0.5.1131",
+            "0.5.998",
+            "0.6.1070",
+            "0.6.1315",
+            "0.6.1411",
+            "0.6.1507",
+            "0.6.1590",
+            "0.6.1603",
+            "0.6.1617",
+            "0.6.1658",
+            "0.6.1670",
+            "0.6.1673",
+            "0.6.179",
+            "0.6.1910",
+            "0.6.22",
+            "0.6.2451",
+            "0.6.2517",
+            "0.6.31",
+            "0.6.317",
+            "0.6.350",
+            "0.6.594",
+            "0.6.602",
+            "0.6.69",
+            "0.6.786",
+            "0.6.800",
+            "0.6.912",
+            "0.7.1090",
+            "0.7.115",
+            "0.7.1217",
+            "0.7.191",
+            "0.7.258",
+            "0.7.270",
+            "0.7.271",
+            "0.7.802",
+            "0.7.852",
+            "0.7.86",
+            "0.7.895",
+            "0.8.11",
+            "0.8.1527",
+            "0.8.484",
+            "0.8.679",
+            "0.9.0-native",
+            "0.9.1-native",
+            "0.9.206",
+            "0.9.66",
+            "0.9.976",
+            "1.0.0",
+            "1.0.0-beta-1038",
+            "1.0.0-beta-1103",
+            "1.0.0-beta-2417",
+            "1.0.0-beta-2422",
+            "1.0.0-beta-2423",
+            "1.0.0-beta-3593",
+            "1.0.0-beta-3594",
+            "1.0.0-beta-3595",
+            "1.0.0-beta-4583",
+            "1.0.0-beta-4584",
+            "1.0.0-beta-4589",
+            "1.0.0-rc-1036",
+            "1.0.1",
+            "1.0.1-1",
+            "1.0.1-2",
+            "1.0.2",
+            "1.0.2-1",
+            "1.0.3",
+            "1.0.4",
+            "1.0.5",
+            "1.0.5-2",
+            "1.0.5-3",
+            "1.0.6",
+            "1.0.7",
+            "1.1.0",
+            "1.1.1",
+            "1.1.2",
+            "1.1.2-2",
+            "1.1.2-3",
+            "1.1.2-4",
+            "1.1.2-5",
+            "1.1.3",
+            "1.1.3-2",
+            "1.1.4",
+            "1.1.4-2",
+            "1.1.4-3",
+            "1.1.50",
+            "1.1.51",
+            "1.1.60",
+            "1.1.61",
+            "1.2.0",
+            "1.2.10",
+            "1.2.20",
+            "1.2.21",
+            "1.2.30",
+            "1.2.31",
+            "1.2.40",
+            "1.2.41",
+            "1.2.50",
+            "1.2.51",
+            "1.2.60",
+            "1.2.61",
+            "1.2.70",
+            "1.2.71",
+            "1.3.0",
+            "1.3.0-rc-190",
+            "1.3.0-rc-198",
+            "1.3.10",
+            "1.3.11",
+            "1.3.20",
+            "1.3.21",
+            "1.3.30",
+            "1.3.31",
+            "1.3.40",
+            "1.3.41",
+            "1.3.50",
+            "1.3.60",
+            "1.3.61",
+            "1.3.70",
+            "1.3.71",
+            "1.3.72",
+            "1.4.0",
+            "1.4.0-rc",
+            "1.4.10",
+            "1.4.20",
+            "1.4.20-M1",
+            "1.4.20-M2",
+            "1.4.20-RC",
+            "1.4.21",
+            "1.4.21-2",
+            "1.4.30",
+            "1.4.30-M1",
+            "1.4.30-RC",
+            "1.4.31",
+            "1.4.32",
+            "1.5.0",
+            "1.5.0-M1",
+            "1.5.0-M2",
+            "1.5.0-RC",
+            "1.5.10",
+            "1.5.20",
+            "1.5.20-M1",
+            "1.5.20-RC",
+            "1.5.21",
+            "1.5.30",
+            "1.5.30-M1",
+            "1.5.30-RC",
+            "1.5.31",
+            "1.5.32",
+            "1.6.0",
+            "1.6.0-M1",
+            "1.6.0-RC",
+            "1.6.0-RC2",
+            "1.6.10",
+            "1.6.10-RC",
+            "1.6.20",
+            "1.6.20-M1",
+            "1.6.20-RC",
+            "1.6.20-RC2",
+            "1.6.21",
+            "1.7.0",
+            "1.7.0-Beta",
+            "1.7.0-RC",
+            "1.7.0-RC2",
+            "1.7.10",
+            "1.7.20",
+            "1.7.20-Beta",
+            "1.7.20-RC",
+            "1.7.21",
+            "1.7.22",
+            "1.8.0",
+            "1.8.0-343",
+            "1.8.0-Beta",
+            "1.8.0-RC",
+            "1.8.0-RC2",
+            "1.8.10",
+            "1.8.20",
+            "1.8.20-Beta",
+            "1.8.20-RC",
+            "1.8.20-RC2",
+            "1.8.21",
+            "1.8.22",
+            "1.9.0",
+            "1.9.0-Beta",
+            "1.9.0-RC",
+            "1.9.10",
+            "1.9.20",
+            "1.9.20-Beta",
+            "1.9.20-Beta2",
+            "1.9.20-RC",
+            "1.9.20-RC2",
+            "1.9.21",
+            "1.9.22",
+            "1.9.23",
+            "1.9.24",
+            "1.9.25",
+            "2.0.0",
+            "2.0.0-Beta1",
+            "2.0.0-Beta2",
+            "2.0.0-Beta3",
+            "2.0.0-Beta4",
+            "2.0.0-Beta5",
+            "2.0.0-RC1",
+            "2.0.0-RC2",
+            "2.0.0-RC3",
+            "2.0.10",
+            "2.0.10-RC",
+            "2.0.10-RC2",
+            "2.0.20",
+            "2.0.20-Beta1",
+            "2.0.20-Beta2",
+            "2.0.20-RC",
+            "2.0.20-RC2",
+            "2.0.21",
+            "2.0.21-RC",
+            "2.1.0",
+            "2.1.0-Beta1",
+            "2.1.0-Beta2",
+            "2.1.0-RC",
+            "2.1.0-RC2",
+            "2.1.10",
+            "2.1.10-RC",
+            "2.1.10-RC2",
+            "2.1.20",
+            "2.1.20-Beta1",
+            "2.1.20-Beta2",
+            "2.1.20-RC",
+            "2.1.20-RC2",
+            "2.1.20-RC3",
+            "2.1.21",
+            "2.1.21-RC",
+            "2.1.21-RC2",
+            "2.2.0",
+            "2.2.0-Beta1",
+            "2.2.0-Beta2",
+            "2.2.0-RC",
+            "2.2.0-RC2",
+            "2.2.0-RC3",
+            "2.2.10",
+            "2.2.10-RC",
+            "2.2.10-RC2",
+            "2.2.20",
+            "2.2.20-Beta1",
+            "2.2.20-Beta2",
+            "2.2.20-RC",
+            "2.2.20-RC2",
+            "2.2.21",
+            "2.2.21-RC",
+            "2.2.21-RC2",
+            "2.3.0",
+            "2.3.0-Beta1",
+            "2.3.0-Beta2",
+            "2.3.0-RC",
+            "2.3.0-RC2",
+            "2.3.0-RC3",
+            "2.3.10",
+            "2.3.10-RC",
+            "2.3.10-RC2",
+            "2.3.20",
+            "2.3.20-Beta1",
+            "2.3.20-Beta2",
+            "2.3.20-RC",
+            "2.3.20-RC2",
+            "2.3.20-RC3",
+            "2.3.21",
+            "2.3.21-RC",
+            "2.3.21-RC2",
+            "2.4.0",
+            "2.4.0-Beta1",
+            "2.4.0-Beta2",
+            "2.4.0-RC",
+            "2.4.0-RC2",
+            "2.4.10",
+            "2.4.10-RC",
+            "2.4.10-RC2"
+          ],
+          "database_specific": {
+            "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/06/GHSA-r937-wjx7-w2jp/GHSA-r937-wjx7-w2jp.json"
+          }
+        }
+      ],
+      "schema_version": "1.9.0",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:L/A:L"
+        }
+      ]
+    }
+  ],
+  "limitation": "An empty result means no indexed match returned, not proof of safety or complete ecosystem coverage."
+}

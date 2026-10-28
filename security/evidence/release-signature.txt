@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Coelho Music
+Signer #1 certificate SHA-256 digest: 26529fcbc7c756bc03db1e3710f8162978a44401b2835c1efb920dc451f10008
+Signer #1 certificate SHA-1 digest: c7b76c52006879cfff41c2b5d3965121f43d43cf
+Signer #1 certificate MD5 digest: 295dcfc4a53825962103b41dbae410ac
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 5e744369618977437cb29630453b7b5ef0afb3883dc60728991a57afb503563c
+Signer #1 public key SHA-1 digest: 80b4f577249c1e11514079160c4d3a04de3faedf
+Signer #1 public key MD5 digest: c771d76d3cd0a91544d6d2e3ade139ce

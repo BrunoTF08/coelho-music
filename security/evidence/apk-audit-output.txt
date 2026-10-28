@@ -1,0 +1,146 @@
+{
+  "apk": "app-release.apk",
+  "sha256": "770bca7f8e048d72b86113ab0965a0444abfdb710a921c70d68d4db4c1658902",
+  "size": 16871655,
+  "permissions": [
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_MEDIA_AUDIO",
+    "android.permission.WAKE_LOCK",
+    "com.coelho.music.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "components": [
+    {
+      "kind": "activity",
+      "name": "com.coelho.music.MainActivity",
+      "exported": true
+    },
+    {
+      "kind": "service",
+      "name": "com.coelho.music.player.service.PlaybackService",
+      "exported": false
+    },
+    {
+      "kind": "activity",
+      "name": "androidx.media3.session.BluetoothValidationActivity",
+      "exported": true
+    },
+    {
+      "kind": "provider",
+      "name": "androidx.startup.InitializationProvider",
+      "exported": false
+    },
+    {
+      "kind": "receiver",
+      "name": "androidx.profileinstaller.ProfileInstallReceiver",
+      "exported": true
+    }
+  ],
+  "dex_files": [
+    "classes.dex",
+    "classes2.dex",
+    "classes3.dex",
+    "classes4.dex"
+  ],
+  "native_binaries": [
+    {
+      "entry": "lib/arm64-v8a/libandroidx.graphics.path.so",
+      "sha256": "41e9a793c43a0f4fddb19e33f346bace464f30f888ba7b9eaf96294ea115bfb6",
+      "origin": {
+        "coordinate": "androidx.graphics:graphics-path:1.0.1",
+        "entry": "jni/arm64-v8a/libandroidx.graphics.path.so"
+      },
+      "elf64_load_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "entry": "lib/arm64-v8a/libdatastore_shared_counter.so",
+      "sha256": "83075d475735b5c095534d52365a8d4d983b48b48604dc0e2121a91e97245030",
+      "origin": {
+        "coordinate": "androidx.datastore:datastore-core-android:1.2.0",
+        "entry": "jni/arm64-v8a/libdatastore_shared_counter.so"
+      },
+      "elf64_load_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "entry": "lib/armeabi-v7a/libandroidx.graphics.path.so",
+      "sha256": "41399eba6fc2a60f6f14642375c1824f3cf25eb8fec7397d753730a3ceda3e2b",
+      "origin": {
+        "coordinate": "androidx.graphics:graphics-path:1.0.1",
+        "entry": "jni/armeabi-v7a/libandroidx.graphics.path.so"
+      },
+      "elf64_load_alignments": []
+    },
+    {
+      "entry": "lib/armeabi-v7a/libdatastore_shared_counter.so",
+      "sha256": "e52559ce38cc3a60c70772dfa418b8348682f6adba64e964fdc57585e1fa2d3a",
+      "origin": {
+        "coordinate": "androidx.datastore:datastore-core-android:1.2.0",
+        "entry": "jni/armeabi-v7a/libdatastore_shared_counter.so"
+      },
+      "elf64_load_alignments": []
+    },
+    {
+      "entry": "lib/x86/libandroidx.graphics.path.so",
+      "sha256": "eb0570b41fd3bff25d8204a967c03bd7550719e768b791f680cc40cbe35f29af",
+      "origin": {
+        "coordinate": "androidx.graphics:graphics-path:1.0.1",
+        "entry": "jni/x86/libandroidx.graphics.path.so"
+      },
+      "elf64_load_alignments": []
+    },
+    {
+      "entry": "lib/x86/libdatastore_shared_counter.so",
+      "sha256": "6e1db98a8177050ca3bb3920e03f2a597c109b02e610bc6138755477bcc9da34",
+      "origin": {
+        "coordinate": "androidx.datastore:datastore-core-android:1.2.0",
+        "entry": "jni/x86/libdatastore_shared_counter.so"
+      },
+      "elf64_load_alignments": []
+    },
+    {
+      "entry": "lib/x86_64/libandroidx.graphics.path.so",
+      "sha256": "4e56c996f13670e70082658de7880c4020eabf4f25e43387f88ed78a713fc9f0",
+      "origin": {
+        "coordinate": "androidx.graphics:graphics-path:1.0.1",
+        "entry": "jni/x86_64/libandroidx.graphics.path.so"
+      },
+      "elf64_load_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    },
+    {
+      "entry": "lib/x86_64/libdatastore_shared_counter.so",
+      "sha256": "ae83eabf68d35b80b3f63939d6d5bfbb4dc08c9f9a9f85ef8b5d7621f46bd547",
+      "origin": {
+        "coordinate": "androidx.datastore:datastore-core-android:1.2.0",
+        "entry": "jni/x86_64/libdatastore_shared_counter.so"
+      },
+      "elf64_load_alignments": [
+        16384,
+        16384,
+        16384
+      ]
+    }
+  ],
+  "library_dex_references_requiring_context": [
+    "Landroid/app/DownloadManager;",
+    "Landroid/webkit/WebView;",
+    "Ljava/io/ObjectInputStream;",
+    "Ljava/net/HttpURLConnection;",
+    "Ljava/net/Socket;"
+  ],
+  "app_source_pattern_matches": [],
+  "note": "Static checks and valid signatures do not establish absence of malware. Framework references need contextual review."
+}

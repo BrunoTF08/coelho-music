@@ -1,0 +1,9 @@
+UpdateLogging: UpdateSessionGuid: AC38592C-ED5F-4967-A584-5872B820001C
+Signature update started . . .
+
+Service Version: 4.18.26090.9
+Engine Version: 1.1.26090.9
+AntiSpyware Signature Version: 1.461.231.0
+AntiVirus Signature Version: 1.461.231.0
+Signature update finished.
+ExitCode=0

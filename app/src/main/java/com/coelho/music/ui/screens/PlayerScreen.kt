@@ -1,10 +1,7 @@
 package com.coelho.music.ui.screens
 
-import android.Manifest
-import android.graphics.drawable.BitmapDrawable
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.*
@@ -19,7 +16,6 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
@@ -27,8 +23,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.palette.graphics.Palette
-import coil.imageLoader
-import coil.request.ImageRequest
+import coil3.SingletonImageLoader
+import coil3.toBitmap
+import coil3.request.ImageRequest
+import coil3.request.allowHardware
 import com.coelho.music.domain.model.formatTime
 import com.coelho.music.ui.MusicViewModel
 import com.coelho.music.ui.components.*
@@ -40,19 +38,12 @@ import kotlinx.coroutines.withContext
 fun PlayerScreen(vm: MusicViewModel, back: () -> Unit, equalizer: () -> Unit) {
     val state by vm.playback.state.collectAsStateWithLifecycle()
     val favorites by vm.favorites.collectAsStateWithLifecycle()
-    val waveform by vm.effects.waveform.collectAsStateWithLifecycle()
-    val visualizerError by vm.effects.visualizerError.collectAsStateWithLifecycle()
     var queue by remember { mutableStateOf(false) }
-    var visualizing by remember { mutableStateOf(false) }
-    var visualizerInfo by remember { mutableStateOf(false) }
     var lyrics by remember { mutableStateOf<String?>(null) }
     var seeking by remember { mutableStateOf<Float?>(null) }
     var dominant by remember { mutableStateOf(Color(0xFF392256)) }
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
-    val record = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
-        if (granted) { visualizing = true; vm.effects.startVisualizer() } else vm.error.value = "O visualizador precisa da permissão de captura de áudio. A reprodução continua disponível."
-    }
     val lyricPicker = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
         if (uri != null) scope.launch {
             lyrics = withContext(Dispatchers.IO) { runCatching {
@@ -69,18 +60,16 @@ fun PlayerScreen(vm: MusicViewModel, back: () -> Unit, equalizer: () -> Unit) {
             }.getOrNull() } ?: "Não foi possível ler a letra."
         }
     }
-    DisposableEffect(Unit) { onDispose { vm.effects.stopVisualizer() } }
     LaunchedEffect(state.current?.mediaId) {
         lyrics = null
         seeking = null
         val art = state.current?.mediaMetadata?.artworkUri
-        val image = runCatching { context.imageLoader.execute(ImageRequest.Builder(context).data(art).allowHardware(false).size(96).build()).drawable }.getOrNull()
+        val image = runCatching { SingletonImageLoader.get(context).execute(ImageRequest.Builder(context).data(art).allowHardware(false).size(96).build()).image }.getOrNull()
         dominant = withContext(Dispatchers.Default) {
-            (image as? BitmapDrawable)?.bitmap?.let { Color(Palette.from(it).generate().getDominantColor(0xFF392256.toInt())) } ?: Color(0xFF392256)
+            image?.toBitmap()?.let { Color(Palette.from(it).generate().getDominantColor(0xFF392256.toInt())) } ?: Color(0xFF392256)
         }
     }
     val item = state.current
-    val foreground = MaterialTheme.colorScheme.onSurface
     Column(Modifier.fillMaxSize().background(Brush.verticalGradient(listOf(dominant.copy(alpha = .6f), MaterialTheme.colorScheme.background)))
         .verticalScroll(rememberScrollState()).padding(horizontal = 24.dp).padding(bottom = 24.dp), horizontalAlignment = Alignment.CenterHorizontally) {
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
@@ -123,23 +112,9 @@ fun PlayerScreen(vm: MusicViewModel, back: () -> Unit, equalizer: () -> Unit) {
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
             TextButton(onClick = { queue = true }) { Icon(Icons.AutoMirrored.Rounded.QueueMusic, null); Text("Fila") }
             TextButton(onClick = { lyricPicker.launch(arrayOf("text/*", "application/octet-stream")) }) { Text("Abrir letra") }
-            Action(Icons.Rounded.GraphicEq, "Visualizador real", { if (visualizing) { visualizing = false; vm.effects.stopVisualizer() } else visualizerInfo = true }, visualizing)
-        }
-        if (visualizing) {
-            Text("Forma de onda • áudio real", style = MaterialTheme.typography.labelSmall)
-            Canvas(Modifier.fillMaxWidth().height(80.dp)) {
-                if (waveform.size > 1) waveform.zipWithNext().forEachIndexed { i, (a, b) ->
-                    drawLine(foreground, Offset(i * size.width / (waveform.size - 1), size.height / 2 + a * size.height / 2),
-                        Offset((i + 1) * size.width / (waveform.size - 1), size.height / 2 + b * size.height / 2), 2f)
-                }
-            }
-            visualizerError?.let { Text(it) }
         }
         lyrics?.let { Text(it, Modifier.fillMaxWidth().padding(vertical = 24.dp)) }
     }
-    if (visualizerInfo) AlertDialog(onDismissRequest = { visualizerInfo = false }, title = { Text("Visualizador de áudio") }, text = {
-        Text("O Android exige a permissão de gravação para capturar a forma de onda da sessão. O app usa esses dados somente em memória para desenhar o áudio; não grava nem envia arquivos.")
-    }, confirmButton = { TextButton(onClick = { visualizerInfo = false; record.launch(Manifest.permission.RECORD_AUDIO) }) { Text("Ativar") } }, dismissButton = { TextButton(onClick = { visualizerInfo = false }) { Text("Cancelar") } })
     if (queue) AlertDialog(onDismissRequest = { queue = false }, title = { Text("Fila de reprodução") }, text = {
         LazyColumn { itemsIndexed(state.queue) { index, media ->
             Column {
