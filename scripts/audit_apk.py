@@ -32,9 +32,10 @@ def main():
     parser.add_argument("--apk", required=True, type=Path)
     parser.add_argument("--sdk", required=True, type=Path)
     parser.add_argument("--java-home", required=True, type=Path)
+    parser.add_argument("--output-dir", type=Path)
     args = parser.parse_args()
     root = Path(__file__).resolve().parent.parent
-    output = root / "security/evidence"
+    output = args.output_dir or root / "security/evidence"
     output.mkdir(parents=True, exist_ok=True)
     tools = args.sdk / "build-tools/35.0.0"
     manifest = run([tools / "aapt2.exe", "dump", "xmltree", args.apk, "--file", "AndroidManifest.xml"])

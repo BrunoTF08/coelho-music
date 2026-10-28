@@ -49,7 +49,8 @@ fun SettingsScreen(vm: MusicViewModel, equalizer: () -> Unit) {
         OutlinedButton(onClick = {
             context.startActivity(Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS).putExtra(Settings.EXTRA_APP_PACKAGE, context.packageName))
         }, Modifier.fillMaxWidth()) { Text("Configurações de notificações") }
-        Text("Coelho Music 1.0.1", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 24.dp))
+        val version = remember(context) { context.packageManager.getPackageInfo(context.packageName, 0).versionName ?: "1.1.0" }
+        Text("Coelho Music $version", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 24.dp))
         Text("Sua música, do seu jeito.\n100% offline. Sem anúncios, conta ou coleta de dados.\nOs arquivos de áudio permanecem no dispositivo.", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(vertical = 12.dp))
     }
 }

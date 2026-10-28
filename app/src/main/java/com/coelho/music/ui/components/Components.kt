@@ -17,7 +17,18 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import coil3.compose.SubcomposeAsyncImage
+import coil3.compose.AsyncImage
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.animateContentSize
+import androidx.compose.animation.core.*
+import androidx.compose.foundation.gestures.Orientation
+import androidx.compose.foundation.gestures.draggable
+import androidx.compose.foundation.gestures.rememberDraggableState
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.platform.LocalDensity
+import com.coelho.music.player.controller.PlaybackProgress
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.launch
 import com.coelho.music.domain.model.Song
 import com.coelho.music.domain.model.formatTime
 import com.coelho.music.player.controller.PlaybackState
@@ -29,8 +40,10 @@ fun Action(icon: ImageVector, label: String, onClick: () -> Unit, selected: Bool
 }
 @Composable
 fun Artwork(model: Any?, modifier: Modifier = Modifier) {
-    SubcomposeAsyncImage(model = model, contentDescription = "Capa do álbum", contentScale = ContentScale.Crop,
-        modifier = modifier.clip(RoundedCornerShape(18.dp)), loading = { ArtPlaceholder() }, error = { ArtPlaceholder() })
+    Box(modifier.clip(RoundedCornerShape(18.dp))) {
+        ArtPlaceholder()
+        AsyncImage(model = model, contentDescription = "Capa do álbum", contentScale = ContentScale.Crop, modifier = Modifier.fillMaxSize())
+    }
 }
 @Composable
 private fun ArtPlaceholder() {
@@ -49,6 +62,7 @@ fun SongRow(song: Song, favorite: Boolean, onClick: () -> Unit, onFavorite: () -
             Text(song.title, maxLines = 1, overflow = TextOverflow.Ellipsis, fontWeight = FontWeight.Medium)
             Text(song.artist, maxLines = 1, overflow = TextOverflow.Ellipsis, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
+        AnimatedVisibility(visible = favorite) { Icon(Icons.Rounded.Favorite, "Favorita", Modifier.size(14.dp), tint = MaterialTheme.colorScheme.primary) }
         Text(formatTime(song.duration), style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         Box {
             Action(Icons.Rounded.MoreVert, "Opções de ${song.title}", { menu = true })
@@ -62,10 +76,20 @@ fun SongRow(song: Song, favorite: Boolean, onClick: () -> Unit, onFavorite: () -
     }
 }
 @Composable
-fun MiniPlayer(state: PlaybackState, open: () -> Unit, toggle: () -> Unit, next: () -> Unit) {
+fun MiniPlayer(state: PlaybackState, progress: StateFlow<PlaybackProgress>, open: () -> Unit, toggle: () -> Unit, next: () -> Unit) {
     val item = state.current ?: return
-    Surface(Modifier.padding(horizontal = 12.dp).fillMaxWidth().clickable(onClick = open), shape = RoundedCornerShape(20.dp), color = MaterialTheme.colorScheme.surfaceContainerHigh) {
-        Column {
+    var drag by remember { mutableFloatStateOf(0f) }
+    val scope = rememberCoroutineScope()
+    var reset by remember { mutableStateOf<kotlinx.coroutines.Job?>(null) }
+    val threshold = with(LocalDensity.current) { 32.dp.toPx() }
+    val draggableState = rememberDraggableState { delta -> drag = (drag + delta).coerceIn(-threshold * 4, threshold) }
+    Surface(Modifier.padding(horizontal = 12.dp).fillMaxWidth()
+        .graphicsLayer { translationY = drag * .18f }
+        .draggable(draggableState, Orientation.Vertical, onDragStarted = { reset?.cancel(); drag = 0f }, onDragStopped = { velocity ->
+            if (drag <= -threshold) { drag = 0f; open() }
+            else reset = scope.launch { Animatable(drag).animateTo(0f, spring(stiffness = 450f), initialVelocity = velocity) { drag = value } }
+        }).clickable(onClick = open), shape = RoundedCornerShape(20.dp), color = MaterialTheme.colorScheme.surfaceContainerHigh) {
+        Column(Modifier.animateContentSize()) {
             Row(Modifier.padding(8.dp), verticalAlignment = Alignment.CenterVertically) {
                 Artwork(item.mediaMetadata.artworkUri, Modifier.size(46.dp))
                 Column(Modifier.weight(1f).padding(horizontal = 12.dp)) {
@@ -75,7 +99,7 @@ fun MiniPlayer(state: PlaybackState, open: () -> Unit, toggle: () -> Unit, next:
                 Action(if (state.playing) Icons.Rounded.Pause else Icons.Rounded.PlayArrow, "Reproduzir ou pausar", toggle)
                 Action(Icons.Rounded.SkipNext, "Próxima", next)
             }
-            LinearProgressIndicator(progress = { if (state.duration > 0) (state.position.toFloat() / state.duration).coerceIn(0f, 1f) else 0f }, modifier = Modifier.fillMaxWidth().height(2.dp))
+            MiniProgress(progress, Modifier.fillMaxWidth().height(2.dp))
         }
     }
 }

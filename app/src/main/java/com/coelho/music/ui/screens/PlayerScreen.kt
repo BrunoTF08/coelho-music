@@ -2,6 +2,8 @@ package com.coelho.music.ui.screens
 
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.animation.animateColorAsState
+import androidx.compose.animation.core.spring
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.*
@@ -40,7 +42,6 @@ fun PlayerScreen(vm: MusicViewModel, back: () -> Unit, equalizer: () -> Unit) {
     val favorites by vm.favorites.collectAsStateWithLifecycle()
     var queue by remember { mutableStateOf(false) }
     var lyrics by remember { mutableStateOf<String?>(null) }
-    var seeking by remember { mutableStateOf<Float?>(null) }
     var dominant by remember { mutableStateOf(Color(0xFF392256)) }
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
@@ -62,15 +63,15 @@ fun PlayerScreen(vm: MusicViewModel, back: () -> Unit, equalizer: () -> Unit) {
     }
     LaunchedEffect(state.current?.mediaId) {
         lyrics = null
-        seeking = null
         val art = state.current?.mediaMetadata?.artworkUri
         val image = runCatching { SingletonImageLoader.get(context).execute(ImageRequest.Builder(context).data(art).allowHardware(false).size(96).build()).image }.getOrNull()
         dominant = withContext(Dispatchers.Default) {
             image?.toBitmap()?.let { Color(Palette.from(it).generate().getDominantColor(0xFF392256.toInt())) } ?: Color(0xFF392256)
         }
     }
+    val animatedDominant by animateColorAsState(dominant, spring(stiffness = 200f), label = "gradiente da capa")
     val item = state.current
-    Column(Modifier.fillMaxSize().background(Brush.verticalGradient(listOf(dominant.copy(alpha = .6f), MaterialTheme.colorScheme.background)))
+    Column(Modifier.fillMaxSize().background(Brush.verticalGradient(listOf(animatedDominant.copy(alpha = .6f), MaterialTheme.colorScheme.background)))
         .verticalScroll(rememberScrollState()).padding(horizontal = 24.dp).padding(bottom = 24.dp), horizontalAlignment = Alignment.CenterHorizontally) {
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
             Action(Icons.Rounded.KeyboardArrowDown, "Fechar player", back)
@@ -79,22 +80,19 @@ fun PlayerScreen(vm: MusicViewModel, back: () -> Unit, equalizer: () -> Unit) {
         }
         if (item == null) { Text("Escolha uma música na biblioteca.", Modifier.padding(48.dp)); return@Column }
         Spacer(Modifier.height(24.dp))
-        Artwork(item.mediaMetadata.artworkUri, Modifier.widthIn(max = 400.dp).fillMaxWidth().aspectRatio(1f))
+        ArtworkGestures(state, vm.playback::swipeNext, vm.playback::swipePrevious, { queue = true }, back,
+            Modifier.widthIn(max = 400.dp).fillMaxWidth().aspectRatio(1f))
+        Text("Deslize a capa para trocar, abrir a fila ou minimizar", style = MaterialTheme.typography.labelSmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(top = 10.dp))
         Row(Modifier.fillMaxWidth().padding(top = 28.dp), verticalAlignment = Alignment.CenterVertically) {
             Column(Modifier.weight(1f)) {
                 Text(item.mediaMetadata.title?.toString() ?: "Sem título", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
                 Text(item.mediaMetadata.artist?.toString() ?: "", color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(top = 6.dp))
             }
             val id = item.mediaId.toLongOrNull()
-            Action(if (id in favorites) Icons.Rounded.Favorite else Icons.Rounded.FavoriteBorder, "Favoritar", { id?.let(vm::favorite) }, selected = id in favorites)
+            FavoriteButton(id in favorites) { id?.let(vm::favorite) }
         }
-        Slider(value = seeking ?: state.position.toFloat().coerceIn(0f, state.duration.coerceAtLeast(1).toFloat()),
-            onValueChange = { seeking = it }, onValueChangeFinished = { seeking?.let { vm.playback.seek(it.toLong()) }; seeking = null },
-            valueRange = 0f..state.duration.coerceAtLeast(1).toFloat(), enabled = state.duration > 0)
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-            Text(formatTime(seeking?.toLong() ?: state.position), style = MaterialTheme.typography.labelSmall)
-            Text(formatTime(state.duration), style = MaterialTheme.typography.labelSmall)
-        }
+        PlayerProgress(vm.playback, item.mediaId)
         Row(Modifier.fillMaxWidth().padding(vertical = 18.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceEvenly) {
             Action(Icons.Rounded.Shuffle, "Aleatório", vm.playback::shuffle, state.shuffle)
             Action(Icons.Rounded.SkipPrevious, "Anterior", vm.playback::previous)
@@ -115,16 +113,5 @@ fun PlayerScreen(vm: MusicViewModel, back: () -> Unit, equalizer: () -> Unit) {
         }
         lyrics?.let { Text(it, Modifier.fillMaxWidth().padding(vertical = 24.dp)) }
     }
-    if (queue) AlertDialog(onDismissRequest = { queue = false }, title = { Text("Fila de reprodução") }, text = {
-        LazyColumn { itemsIndexed(state.queue) { index, media ->
-            Column {
-                TextButton(onClick = { vm.playback.jump(index); queue = false }) { Text("${if (index == state.index) "▶ " else ""}${media.mediaMetadata.title ?: "Sem título"}") }
-                Row {
-                    Action(Icons.Rounded.ArrowUpward, "Mover para cima", { vm.playback.move(index, index - 1) }, enabled = index > 0)
-                    Action(Icons.Rounded.ArrowDownward, "Mover para baixo", { vm.playback.move(index, index + 1) }, enabled = index < state.queue.lastIndex)
-                    Action(Icons.Rounded.Close, "Remover da fila", { vm.playback.remove(index) })
-                }
-            }
-        } }
-    }, confirmButton = { TextButton(onClick = { queue = false }) { Text("Concluir") } })
+    if (queue) QueueSheet(state, vm.playback) { queue = false }
 }

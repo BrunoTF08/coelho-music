@@ -1,0 +1,30 @@
+[
+  {
+    "name": "com.coelho.music.domain.model.LibraryRulesTest",
+    "tests": "2",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  },
+  {
+    "name": "com.coelho.music.domain.model.LibraryUpdateTest",
+    "tests": "4",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  },
+  {
+    "name": "com.coelho.music.domain.model.LocalMediaPolicyTest",
+    "tests": "2",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  },
+  {
+    "name": "com.coelho.music.domain.model.SwipeRulesTest",
+    "tests": "3",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0"
+  }
+]

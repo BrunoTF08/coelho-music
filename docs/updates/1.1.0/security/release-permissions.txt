@@ -1,0 +1,9 @@
+package: com.coelho.music
+uses-permission: name='android.permission.READ_MEDIA_AUDIO'
+uses-permission: name='android.permission.READ_EXTERNAL_STORAGE' maxSdkVersion='32'
+uses-permission: name='android.permission.FOREGROUND_SERVICE'
+uses-permission: name='android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='android.permission.MODIFY_AUDIO_SETTINGS'
+permission: com.coelho.music.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission: name='com.coelho.music.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'

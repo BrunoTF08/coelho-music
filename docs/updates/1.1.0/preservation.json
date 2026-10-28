@@ -1,0 +1,13 @@
+{
+  "unchanged_paths": [
+    "app/src/main/AndroidManifest.xml",
+    "app/src/main/java/com/coelho/music/player/service",
+    "app/src/main/java/com/coelho/music/data/local",
+    "app/schemas"
+  ],
+  "changed_files": [],
+  "release_application_id": "com.coelho.music",
+  "debug_application_id": "com.coelho.music.debug",
+  "room_schema_version": 1,
+  "device_upgrade_tested": false
+}

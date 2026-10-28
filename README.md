@@ -4,11 +4,16 @@ Reprodutor Android nativo de músicas locais. Kotlin, Compose Material 3, MVVM, 
 
 ## Download e instalação
 
-[Baixar Coelho Music 1.0.1 — APK release para Android](https://github.com/BrunoTF08/coelho-music/releases/download/v1.0.1/Coelho-Music-1.0.1-release.apk)
+[Baixar Coelho Music 1.1.0 — APK release para Android](https://github.com/BrunoTF08/coelho-music/releases/download/v1.1.0/Coelho-Music-1.1.0-release.apk)
 
-Veja os detalhes na [release v1.0.1](https://github.com/BrunoTF08/coelho-music/releases/tag/v1.0.1). No Android 8.0 ou superior, abra o arquivo e autorize a instalação pelo aplicativo utilizado para baixá-lo, caso o Android solicite. Ao iniciar o Coelho Music, permita acesso às músicas locais.
+Veja os detalhes na [release v1.1.0](https://github.com/BrunoTF08/coelho-music/releases/tag/v1.1.0). No Android 8.0 ou superior, abra o arquivo e autorize a instalação pelo aplicativo utilizado para baixá-lo, caso o Android solicite. Ao iniciar o Coelho Music, permita acesso às músicas locais.
 
-A versão 1.0.1 é uma compilação release com chave própria, sem permissão de rede ou microfone. Leia a [revisão de segurança](SECURITY_REVIEW.md) e as [instruções de assinatura](SIGNING.md). Para migrar da versão debug antiga, será necessário desinstalá-la, perdendo seus dados locais; os arquivos de música externos permanecem no dispositivo.
+A versão 1.1.0 usa a mesma chave própria da release 1.0.1 e mantém banco/preferências, sem permissão de rede ou microfone. Leia o [relatório da atualização](ATUALIZACAO_1.1.0.md), a [revisão de segurança anterior](SECURITY_REVIEW.md) e as [instruções de assinatura](SIGNING.md).
+
+[APK debug para testes](https://github.com/BrunoTF08/coelho-music/releases/download/v1.1.0/Coelho-Music-1.1.0-debug.apk): pacote separado `com.coelho.music.debug`, com dados próprios, para instalar ao lado da versão principal.
+
+Novidades: adicionadas recentemente com **Ver todas**, atualização automática pelo MediaStore, gestos na capa para trocar/abrir fila/minimizar, miniplayer expansível por arraste e melhorias no processamento da biblioteca e estado de reprodução.
+
 
 ## Abrir e compilar
 
@@ -26,7 +31,7 @@ Em outra máquina com Java e SDK configurados:
 ./gradlew.bat :app:assembleRelease :app:testReleaseUnitTest :app:lintRelease
 ```
 
-APK: `app/build/outputs/apk/release/app-release.apk`. A primeira compilação precisa de internet para as ferramentas e dependências. O aplicativo instalado funciona offline e não declara permissão de internet.
+APK release: `app/build/outputs/apk/release/app-release.apk`. Para gerar debug, execute `./build.ps1` ou `./gradlew.bat :app:assembleDebug`; saída `app/build/outputs/apk/debug/app-debug.apk`. A primeira compilação precisa de internet para as ferramentas e dependências. O aplicativo instalado funciona offline e não declara permissão de internet.
 
 ## Estrutura
 

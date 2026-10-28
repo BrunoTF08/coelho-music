@@ -29,8 +29,8 @@ android {
         applicationId = "com.coelho.music"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
-        versionName = "1.0.1"
+        versionCode = 3
+        versionName = "1.1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     buildFeatures { compose = true }
@@ -46,6 +46,10 @@ android {
         }
     }
     buildTypes {
+        getByName("debug") {
+            applicationIdSuffix = ".debug"
+            versionNameSuffix = "-debug"
+        }
         getByName("release") {
             isDebuggable = false
             // Keep class names readable for auditing. No packer or obfuscation is used.

@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.coelho.music.data.local.*
 import com.coelho.music.data.repository.*
 import com.coelho.music.domain.model.Song
+import com.coelho.music.domain.model.recentlyAdded
 import com.coelho.music.player.controller.PlaybackController
 import com.coelho.music.player.service.AudioEffects
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -16,6 +17,10 @@ import javax.inject.Inject
 class MusicViewModel @Inject constructor(val playback: PlaybackController, val effects: AudioEffects,
     private val library: LibraryRepository, private val dao: MusicDao, val preferences: PreferencesRepository) : ViewModel() {
     val songs = MutableStateFlow<List<Song>>(emptyList())
+    val recentSongs = combine(songs, preferences.settings.map { it.minDuration }.distinctUntilChanged()) { items, minimum ->
+        recentlyAdded(items.filter { it.duration >= minimum * 1000L }, { it.added }, { it.id })
+    }.flowOn(Dispatchers.Default).stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
+    val libraryError = MutableStateFlow<String?>(null)
     val loading = MutableStateFlow(false)
     val error = MutableStateFlow<String?>(null)
     val settings = preferences.settings.stateIn(viewModelScope, SharingStarted.Eagerly, null)
@@ -25,20 +30,43 @@ class MusicViewModel @Inject constructor(val playback: PlaybackController, val e
     val history = dao.history().stateIn(viewModelScope, SharingStarted.Eagerly, emptyList())
     private var loadJob: Job? = null
     private var observerJob: Job? = null
-    fun refresh() {
-        loadJob?.cancel()
+    private var foreground = false
+    private var refreshAgain = false
+    fun setForeground(active: Boolean, canRead: Boolean) {
+        playback.setUiActive(active)
+        foreground = active
+        if (!active || !canRead) {
+            observerJob?.cancel(); observerJob = null
+            loadJob?.cancel()
+            if (!canRead) songs.value = emptyList()
+            return
+        }
+        if (observerJob?.isActive != true) observerJob = viewModelScope.launch {
+            library.changes.catch { libraryError.value = "Atualização automática indisponível. Use atualizar biblioteca." }
+                .collectLatest { delay(350); refresh(false) }
+        }
+        refresh(true)
+    }
+    fun refresh() = refresh(true)
+    private fun refresh(forceFull: Boolean) {
+        if (!forceFull && !foreground) return
+        if (loadJob?.isActive == true && !forceFull) { refreshAgain = true; return }
+        val previous = loadJob
+        previous?.cancel()
         loadJob = viewModelScope.launch {
+            previous?.join()
             loading.value = true
+            var fullRead = forceFull
             try {
-                songs.value = library.load(); error.value = null
-                if (observerJob == null) observerJob = viewModelScope.launch {
-                    library.changes.catch { error.value = "Atualização automática indisponível. Use atualizar biblioteca." }
-                        .collectLatest { delay(500); refresh() }
-                }
-            }
-            catch (e: CancellationException) { throw e }
-            catch (_: SecurityException) { songs.value = emptyList(); error.value = "Autorize o acesso às músicas para carregar a biblioteca." }
-            catch (_: Exception) { error.value = "Não foi possível carregar a biblioteca. Tente atualizar." }
+                do {
+                    refreshAgain = false
+                    songs.value = library.load(fullRead)
+                    libraryError.value = null
+                    fullRead = false
+                } while (refreshAgain && foreground)
+            } catch (e: CancellationException) { throw e }
+            catch (_: SecurityException) { songs.value = emptyList(); libraryError.value = "Autorize o acesso às músicas para carregar a biblioteca." }
+            catch (_: Exception) { libraryError.value = "Não foi possível ler suas músicas. Toque em atualizar para tentar novamente." }
             finally { loading.value = false }
         }
     }
