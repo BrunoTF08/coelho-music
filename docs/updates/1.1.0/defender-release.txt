@@ -1,0 +1,4 @@
+Scan starting...
+Scan finished.
+Scanning C:\Users\BRUNO\Documents\Coelho Music\dist\Coelho-Music-1.1.0-release.apk found no threats.
+ExitCode=0

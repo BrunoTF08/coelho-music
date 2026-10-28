@@ -1,6 +1,6 @@
 {
   "apk": "app-release.apk",
-  "sha256": "f32b8003217cbfc53311b9f28627ca6bcc9e6007c4f33da867a28f63c8dee17e",
+  "sha256": "8d4ee43b76398cb0f279e97f340948b033b7678b7a19690d3166a2fa0a48963a",
   "size": 16920807,
   "certificate_sha256": "26529fcbc7c756bc03db1e3710f8162978a44401b2835c1efb920dc451f10008",
   "permissions": [

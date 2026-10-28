@@ -6,7 +6,7 @@ Verifying alignment of app\build\outputs\apk\release\app-release.apk (4)...
    11591 classes.dex (OK - compressed)
  6375810 classes2.dex (OK - compressed)
 10286698 classes3.dex (OK - compressed)
-13646480 classes4.dex (OK - compressed)
+13646318 classes4.dex (OK - compressed)
 15777792 lib/arm64-v8a/libandroidx.graphics.path.so (OK)
 15794176 lib/arm64-v8a/libdatastore_shared_counter.so (OK)
 15859712 lib/armeabi-v7a/libandroidx.graphics.path.so (OK)
