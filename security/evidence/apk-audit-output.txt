@@ -1,7 +1,8 @@
 {
   "apk": "app-release.apk",
-  "sha256": "770bca7f8e048d72b86113ab0965a0444abfdb710a921c70d68d4db4c1658902",
+  "sha256": "b052ba1d24a3a3986201af68700be06fa09d39b2e5ebdf4212cef07b34e88db0",
   "size": 16871655,
+  "certificate_sha256": "26529fcbc7c756bc03db1e3710f8162978a44401b2835c1efb920dc451f10008",
   "permissions": [
     "android.permission.FOREGROUND_SERVICE",
     "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
